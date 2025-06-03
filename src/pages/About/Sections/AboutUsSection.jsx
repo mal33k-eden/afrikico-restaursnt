@@ -14,7 +14,7 @@ export default function AboutUsSection() {
           <div className="relative">
             <div className="relative z-10 max-w-md">
               <img
-                src="https://images.unsplash.com/photo-1731475761027-0b6b33b74547?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://images.unsplash.com/photo-1705088293220-c1a22b5d214a?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="afrikico"
                 className="w-full h-90 lg:w-170 lg:h-full md:w-170 md:h-full rounded-md shadow-lg object-cover"
               />
@@ -22,7 +22,7 @@ export default function AboutUsSection() {
 
             <div className="absolute bottom-0 right-0 md:-right-2 z-20 w-64 md:w-80">
               <img
-                src="https://images.unsplash.com/photo-1527324688151-0e627063f2b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+                src="https://images.unsplash.com/photo-1634324092526-91f5e878b72f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
                 alt="afrikico"
                 className="w-full h-auto rounded-md shadow-lg border-4 border-white"
               />

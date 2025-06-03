@@ -10,9 +10,9 @@ const BreadCrumb = () => {
     <div className="relative h-50 md:h-56 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src="https://i.pinimg.com/736x/4e/4d/61/4e4d618db4d9c8ce2a811c2d55814298.jpg"
+          src="https://images.unsplash.com/photo-1705088295626-d9fde0f57f10?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE1fHx8ZW58MHx8fHx8"
           alt="Breadcrumb Background"
-          className="w-full h-full object-cover opacity-60"
+          className="w-full h-full object-cover "
         />
 
         <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/67 to-black/55"></div>

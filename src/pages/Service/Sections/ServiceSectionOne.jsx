@@ -21,7 +21,7 @@ export default function ServiceSectionOne() {
           <div className="relative">
             <div className="relative z-10 max-w-full">
               <img
-                src="https://elafrikcuisineandbar.com/wp-content/uploads/2024/03/AdobeStock_684667775_Preview.jpeg"
+                src="https://images.unsplash.com/photo-1705088293214-7494366cce01?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
                 alt="afrikico"
                 className="w-full h-auto rounded-md shadow-lg"
               />

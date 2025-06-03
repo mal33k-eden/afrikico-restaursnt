@@ -59,14 +59,14 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative">
               <img
-                src="https://plus.unsplash.com/premium_photo-1737756896984-3d87c0479204?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fEFmcmljYW4lMjBFYXRpbmclMjBGb29kJTIwdG9nZXRoZXJ8ZW58MHx8MHx8fDA%3D"
+                src="https://images.unsplash.com/photo-1701566688193-138f26394b07?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt=""
                 className="w-full h-[400px] object-cover rounded-lg shadow-lg"
               />
             </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
-                src="https://images.unsplash.com/photo-1527324688151-0e627063f2b1?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D"
+                src="https://images.unsplash.com/photo-1708782344137-21c48d98dfcc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8"
                 alt=""
                 className="w-full h-full object-cover rounded-lg shadow-xl border-4 border-white"
               />

@@ -1,9 +1,6 @@
-import { useState } from "react";
-import { ChevronLeft, ChevronRight, Star } from "lucide-react";
+import { Star } from "lucide-react"
 
-export default function TestimonialSection() {
-  const [currentTestimonial, setCurrentTestimonial] = useState(0);
-
+export default function TestimonialSectionRedesigned() {
   const testimonials = [
     {
       id: 1,
@@ -32,85 +29,60 @@ export default function TestimonialSection() {
       image:
         "https://media.istockphoto.com/id/466334360/photo/cant-talk-in-the-cupcake-zone.webp?a=1&b=1&s=612x612&w=0&k=20&c=_XinWmobX7iqZGqIahk-VmMOoXcFWMcp9eU0QpnGUvo=",
     },
-  ];
-
-  const nextTestimonial = () => {
-    setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
-  };
-
-  const prevTestimonial = () => {
-    setCurrentTestimonial(
-      (prev) => (prev - 1 + testimonials.length) % testimonials.length
-    );
-  };
-
-  const currentReview = testimonials[currentTestimonial];
+  ]
 
   return (
     <section className="py-16 px-4 bg-[#F8F1ED]">
       <div className="max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-12 gap-8 items-center">
-          <div className="lg:col-span-4 space-y-8">
-            <div className="inline-block relative">
+        <div className="text-center mb-16">
+          <div className="inline-block relative mb-6">
             <div className="bg-primary-orange text-white px-6 py-3 text-sm font-bold tracking-wider uppercase relative">
-                OUR TESTIMONIAL
+              OUR TESTIMONIAL
+            </div>
+          </div>
+          <h2
+            className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight max-w-4xl mx-auto"
+          >
+            What People Say About Afrikico
+          </h2>
+        </div>
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {testimonials.map((testimonial) => (
+            <div
+              key={testimonial.id}
+              className="bg-white rounded-lg p-6 shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1"
+            >
+              <div className="flex space-x-1 mb-4">
+                {[...Array(5)].map((_, index) => (
+                  <Star
+                    key={index}
+                    className={`w-5 h-5 ${
+                      index < testimonial.rating ? "fill-orange-500 text-primary-orange" : "fill-gray-200 text-gray-200"
+                    }`}
+                  />
+                ))}
+              </div>
+
+              <p className="text-gray-600 leading-relaxed mb-6 text-sm md:text-base">"{testimonial.text}"</p>
+
+              <div className="flex items-center space-x-4">
+                <div className="flex-shrink-0">
+                  <img
+                    src={testimonial.image}
+                    alt={testimonial.name}
+                    className="w-12 h-12 rounded-full object-cover border-2 border-orange-100"
+                  />
+                </div>
+
+                <div>
+                  <h4 className="font-bold text-gray-800 text-lg">{testimonial.name}</h4>
+                  <p className="text-primary-orange font-medium text-sm uppercase tracking-wide">{testimonial.role}</p>
+                </div>
               </div>
             </div>
-            <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
-              What People Say About Afrikico
-            </h2>
-          </div>
-
-          <div className="lg:col-span-4 flex justify-center">
-            <div className="relative">
-              <img
-                src={currentReview.image}
-                alt={`${currentReview.name}`}
-                className="w-full h-full md:w-200 lg:w-full lg:h-90 sm:w-full object-cover rounded-lg shadow-lg transition-all duration-500"
-              />
-            </div>
-          </div>
-
-          <div className="lg:col-span-4 space-y-6">
-            <div className="flex space-x-1">
-              {[...Array(currentReview.rating)].map((_, index) => (
-                <Star
-                  key={index}
-                  className="w-6 h-6 fill-primary-orange text-primary-orange"
-                />
-              ))}
-            </div>
-
-            <p className="text-gray-600 leading-relaxed text-base lg:text-lg">
-              {currentReview.text}
-            </p>
-
-            <div className="space-y-2">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-800">
-                {currentReview.name}
-              </h3>
-              <p className="text-primary-orange font-bold text-sm tracking-wider uppercase">
-                {currentReview.role}
-              </p>
-            </div>
-
-            <div className="flex space-x-2 pt-4">
-              <button
-                onClick={prevTestimonial}
-                className="w-12 h-12 bg-primary-orange hover:bg-orange-900 text-white flex items-center justify-center transition-colors duration-300 cursor-pointer"
-              >
-                <ChevronLeft className="w-5 h-5" />
-              </button>
-              <button
-                onClick={nextTestimonial}
-                className="w-12 h-12 bg-primary-orange hover:bg-orange-900 text-white flex items-center justify-center transition-colors duration-300 cursor-pointer"
-              >
-                <ChevronRight className="w-5 h-5" />
-              </button>
-            </div>
-          </div>
+          ))}
         </div>
       </div>
     </section>
-  );
+  )
 }

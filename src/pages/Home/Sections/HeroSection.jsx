@@ -36,9 +36,9 @@ export default function HeroSection() {
           <div className="relative order-1 lg:order-2 hidden md:block">
             <div className="relative animate-fade-in-right h-[300px] md:h-[100px] w-full mb-90">
               <div className="relative  w-full">
-                <div className="relative w-full overflow-hidden animate-float mt-5">
+                <div className="relative w-full overflow-hidden animate-float mt-5 rounded-4xl">
                   <img
-                    src="https://elafrikcuisineandbar.com/wp-content/uploads/2024/03/AdobeStock_684667775_Preview.jpeg"
+                    src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt=""
                     className="object-cover h-full w-full scale-110 hover:scale-125 transition-transform duration-700 animate-subtle-rotate"
                   />
