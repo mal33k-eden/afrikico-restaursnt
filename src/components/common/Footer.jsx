@@ -27,13 +27,17 @@ const Footer = () => {
           <div className="lg:col-span-1">
             <div className="flex items-center h-24">
               <Link to="/" className="flex items-center">
-                <img src={Logo} alt="Afrikico" className="h-40 w-auto object-contain mb-8" />
+                <img
+                  src={Logo}
+                  alt="Afrikico"
+                  className="h-40 w-auto object-contain mb-8"
+                />
               </Link>
             </div>
 
             <p className="text-gray-400 mb-6 leading-relaxed">
               Stay up-to-date with all things Afrikico!
-             <br /> Follow us for daily updates, special offers, and events.
+              <br /> Follow us for daily updates, special offers, and events.
             </p>
 
             <div className="flex space-x-4">
@@ -89,9 +93,7 @@ const Footer = () => {
               <div>
                 <div className="flex items-center mb-1">
                   <span className="w-2 h-2 bg-orange-400 rounded-full mr-2"></span>
-                  <span className="text-orange-400 font-medium">
-                    Friday
-                  </span>
+                  <span className="text-orange-400 font-medium">Friday</span>
                 </div>
                 <p className="text-gray-400 ml-4">11:00 am - 10:30pm</p>
               </div>
@@ -126,8 +128,12 @@ const Footer = () => {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-primary-orange font-medium mb-1">Location :</p>
-                  <p className="text-gray-400">222E Oak Ridge Dr. Hagerstown MD 21740</p>
+                  <p className="text-primary-orange font-medium mb-1">
+                    Location :
+                  </p>
+                  <p className="text-gray-400">
+                    222E Oak Ridge Dr. Hagerstown MD 21740
+                  </p>
                 </div>
               </div>
 
@@ -157,10 +163,10 @@ const Footer = () => {
                     Phone Number :
                   </p>
                   <Link
-                    href="tel:+587-983-1350"
+                    href="tel:+240-707-8260"
                     className="text-gray-400 hover:text-[#AD571E] transition-colors"
                   >
-                    587-(983)-1350
+                    240-(707)-8260
                   </Link>
                 </div>
               </div>

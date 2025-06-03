@@ -17,7 +17,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Business Phone",
-      details: ["+ 587-983-1350", "+ (567)-983-1350"],
+      details: ["+ 240-707-8260", "+ 240-(707)-8260"],
     },
     {
       icon: MapPin,

@@ -25,7 +25,7 @@ export default function TestimonialSectionRedesigned() {
       name: "Sarah Mason",
       role: "First-Time Explorer",
       rating: 5,
-      text: "I'd never really tried African food before, but Afrikico was such an incredible introduction! The staff were so helpful in guiding me through the menu, and the Waakye was absolutely delicious. Every bite was a new flavor adventure. I'm already planning my next visit!",
+      text: "Afrikico was such an incredible introduction to African food! The staff were so helpful in guiding me through the menu, and the Waakye was absolutely delicious. Every bite was a new flavor adventure. I'm already planning my next visit!",
       image:
         "https://media.istockphoto.com/id/466334360/photo/cant-talk-in-the-cupcake-zone.webp?a=1&b=1&s=612x612&w=0&k=20&c=_XinWmobX7iqZGqIahk-VmMOoXcFWMcp9eU0QpnGUvo=",
     },
