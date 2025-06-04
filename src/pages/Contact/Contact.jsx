@@ -6,12 +6,12 @@ const Contact = () => {
     {
       icon: Mail,
       title: "Email Address",
-      details: ["info@afrikico.com", "info2@afrikico.com"],
+      details: ["info@afrikicorestaurant.com"],
     },
     {
       icon: Phone,
       title: "Business Phone",
-      details: ["+ 240-707-8260", "+ 240-(707)-8260"],
+      details: ["+ 240-707-8260"],
     },
     {
       icon: MapPin,

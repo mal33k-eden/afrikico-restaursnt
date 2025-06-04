@@ -202,10 +202,10 @@ const FoodMenuListSection = () => {
             APPETIZERS
             </h2>
           </div>
-          <div className="grid md:grid-cols-2 gap-x-12 gap-y-5">
+          <div className="grid md:grid-cols-2 gap-x-16 gap-y-12">
             {appetizerMenuItems.map((item, index) => (
               <div key={index} className="border-b border-gray-200 pb-5">
-                <div className="flex justify-between items-start space-x-4">
+                <div className="flex items-start space-x-4">
                 <div className="flex-shrink-0">
                   <img
                     src={item.image}
@@ -214,19 +214,19 @@ const FoodMenuListSection = () => {
                   />
                 </div>
 
-                  <div className="flex-1 pr-4">
-                    <h3 className="text-xl md:text-1xl font-bold text-gray-800 mb-2">
+                <div className="flex-grow">
+                  <div className="flex justify-between items-start mb-2">
+                    <h3 className="text-xl md:text-2xl font-bold text-gray-800">
                       {item.name}
                     </h3>
-                    <p className="text-gray-500 text-sm md:text-base leading-relaxed">
-                      {item.description}
-                    </p>
-                  </div>
-                  <div className="flex-shrink-0">
-                    <span className="text-2xl md:text-3xl font-bold text-gray-800">
+                    <span className="text-xl md:text-2xl font-bold text-gray-800 ml-4">
                       $ {item.price}
                     </span>
                   </div>
+                  <p className="text-gray-500 text-sm md:text-base leading-relaxed">
+                    {item.description}
+                  </p>
+                </div>
                 </div>
               </div>
             ))}

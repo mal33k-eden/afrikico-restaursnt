@@ -146,10 +146,10 @@ const Footer = () => {
                     Email Address :
                   </p>
                   <Link
-                    href="mailto:afrikico@gmail.com"
+                    href="mailto:info@afrikicorestaurant.com"
                     className="text-gray-400 hover:text-[#AD571E] transition-colors"
                   >
-                    afrikico@gmail.com
+                    info@afrikicorestaurant.com
                   </Link>
                 </div>
               </div>
