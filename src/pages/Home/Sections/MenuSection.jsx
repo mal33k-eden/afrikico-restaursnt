@@ -1,44 +1,44 @@
 export default function MenuSection() {
     const menuItems = [
       {
-        name: "Zongo Waayke",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
+        name: " Jollof",
+        description: "A flavorful West African rice dish cooked with tomatoes, peppers, and spices, offering a rich and spicy taste. Perfect as a hearty standalone meal.",
+        price: 20,
       },
       {
+        name: "Waakye",
+        description: " A Ghanaian specialty of rice and beans cooked with millet leaves, served with stew, spicy sauce, and sides like gari or fried plantain.",
+        price: 22,
+      },
+      {
+        name: "Fried Rice",
+        description: "A savory stir-fried rice dish with vegetables, soy sauce, and a choice of protein, delivering a satisfying and aromatic experience.",
+        price: 20,
+      },
+      {
+        name: "Okro",
+        description: "A traditional okra stew with a slimy texture, spiced and served with sides like banku or rice for an authentic taste.",
+        price: 18,
+      },
+      {
+        name: "Plantain Soup",
+        description: "A creamy and savory soup made with ripe plantains, blended with spices and vegetables, perfect for a light yet filling option.",
+        price: 15,
+    },
+    {
+        name: "Peanut Soup",
+        description: "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice for a comforting meal.",
+        price: 20,
+    },
+    {
         name: "Spinach Stew",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
-      },
-      {
-        name: "Fried Croacker Fish and Peppersauce",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
-      },
-      {
-        name: "Grilled Tilapia and Peppersauce",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
-      },
-      {
-        name: "Wild Mushroom Aran Food",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
+        description: "A nutritious stew made with fresh spinach, cooked with tomatoes and spices, ideal as a side or with a protein.",
+        price: 18,
     },
     {
-        name: "Red Red and Fried Plaintains",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
-    },
-    {
-        name: "Red Red and Fried Plaintains",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
-    },
-    {
-        name: "Red Red and Fried Plaintains",
-        description: "Lorem Ipsum as their default model text infancy",
-        price: 30,
+        name: "Tilapia",
+        description: "A whole grilled or fried tilapia fish, seasoned with a spicy pepper sauce, offering a flavorful seafood experience.",
+        price: 25,
         },
     ]
   

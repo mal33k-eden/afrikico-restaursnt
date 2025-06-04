@@ -43,7 +43,7 @@ const FoodGallerySection = () => {
   ];
 
   return (
-    <section className="py-16 bg-[#f6f4f4] overflow-hidden">
+    <section className="py-16 bg-white overflow-hidden">
       <div className="container max-w-7xl mx-auto ">
         <div className=" mx-auto px-4 mb-10">
           <h2
