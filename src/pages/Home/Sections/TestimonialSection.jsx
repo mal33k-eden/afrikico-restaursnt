@@ -9,7 +9,7 @@ export default function TestimonialSectionRedesigned() {
       rating: 4,
       text: "Afrikico is simply fantastic! The Jollof Rice brought back so many great childhood memories, and the whole place feels so friendly. Every dish tastes like pure comfort. I can't recommend it enough!",
       image:
-        "https://media.istockphoto.com/id/2176673995/photo/portrait-of-a-mid-adult-man-eating-on-a-restaurant.webp?a=1&b=1&s=612x612&w=0&k=20&c=TeCBTD2UJWdmI-ki2JH295HIaSRPidc1BQGpKk-V9QI=",
+        "https://images.unsplash.com/photo-1581299894007-aaa50297cf16?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM5fHx8ZW58MHx8fHx8",
     },
     {
       id: 2,
@@ -18,7 +18,7 @@ export default function TestimonialSectionRedesigned() {
       rating: 5,
       text: "I brought my family here last week, and every single dish was a winner. The Grilled Tilapia was perfectly cooked, and the pepper sauce had just the right kick. We'll definitely be regulars!",
       image:
-        "https://images.unsplash.com/photo-1502764613149-7f1d229e230f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D",
+        "https://plus.unsplash.com/premium_photo-1745624797647-37ddb5c77b65?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDJ8fHxlbnwwfHx8fHw%3D",
     },
     {
       id: 3,

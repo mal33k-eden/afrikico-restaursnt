@@ -2,7 +2,7 @@ const FoodGallerySection = () => {
   const allImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1635360065676-f47200966893?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
+      src: "https://images.unsplash.com/photo-1626266799502-ec96e7cc4bce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8",
       alt: "Delicious pasta dish with fresh herbs",
     },
     {
@@ -12,12 +12,12 @@ const FoodGallerySection = () => {
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1653981608672-aea09b857b20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzJ8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
+      src: "https://images.unsplash.com/photo-1666190092689-e3968aa0c32c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMxfHx8ZW58MHx8fHx8",
       alt: "Chocolate dessert with berries",
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1680529671259-240268d96c4e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
+      src: "https://images.unsplash.com/photo-1664717698774-84f62382613b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8",
       alt: "Fresh salad with avocado",
     },
     {

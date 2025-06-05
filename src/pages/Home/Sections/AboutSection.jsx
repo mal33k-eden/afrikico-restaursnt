@@ -66,7 +66,7 @@ export default function AboutSection() {
             </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
-                src="https://images.unsplash.com/photo-1708782344137-21c48d98dfcc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMwfHx8ZW58MHx8fHx8"
+                src="https://images.unsplash.com/photo-1539755530862-00f623c00f52?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
                 alt=""
                 className="w-full h-full object-cover rounded-lg shadow-xl border-4 border-white"
               />

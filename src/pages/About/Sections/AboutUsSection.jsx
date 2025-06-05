@@ -22,7 +22,7 @@ export default function AboutUsSection() {
 
             <div className="absolute bottom-0 right-0 md:-right-2 z-20 w-64 md:w-80">
               <img
-                src="https://images.unsplash.com/photo-1634324092526-91f5e878b72f?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDEzfHx8ZW58MHx8fHx8"
+                src="https://images.unsplash.com/photo-1604556590982-f57facb22ccc?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI5fHx8ZW58MHx8fHx8"
                 alt="afrikico"
                 className="w-full h-auto rounded-md shadow-lg border-4 border-white"
               />
