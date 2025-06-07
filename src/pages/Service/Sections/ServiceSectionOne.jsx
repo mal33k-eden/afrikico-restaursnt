@@ -1,16 +1,21 @@
-import { Wine, Pizza } from "lucide-react"
+import { Crown, Shield, Heart } from "lucide-react"
 
 export default function ServiceSectionOne() {
   const services = [
     {
-      icon: Wine,
-      title: "Tailored for Any Food",
-      description: "Nisi mi habitant iaculis molestie feugiat magna letius",
+      icon: Crown,
+      title: "Premium Ingredients",
+      description: "Only the freshest, high-quality ingredients—locally sourced and full of flavor",
     },
     {
-      icon: Pizza,
-      title: "Seamless Service,to Cleanup",
-      description: "Nisi mi habitant iaculis molestie feugiat magna letius",
+      icon: Shield,
+      title: "Authentic Experience",
+      description: "Traditional recipes, modern techniques, unforgettable taste",
+    },
+    {
+      icon: Heart,
+      title: "Exceptional Service",
+      description: "Friendly, attentive service from start to finish",
     },
   ]
 
@@ -31,13 +36,13 @@ export default function ServiceSectionOne() {
           <div className="space-y-8 md:pl-8">
             <div>
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
-                Expertly Crafted Services for Events
+               Why We Are The Best
               </h2>
             </div>
 
-            <p className="text-gray-600 leading-relaxed">
+            {/* <p className="text-gray-600 leading-relaxed">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
-            </p>
+            </p> */}
 
             <div className="space-y-8 pt-4">
               {services.map((service, index) => (

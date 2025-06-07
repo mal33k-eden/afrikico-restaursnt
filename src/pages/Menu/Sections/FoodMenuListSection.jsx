@@ -216,10 +216,10 @@ const FoodMenuListSection = () => {
 
                 <div className="flex-grow">
                   <div className="flex justify-between items-start mb-2">
-                    <h3 className="text-xl md:text-2xl font-bold text-gray-800">
+                    <h3 className="text-xl md:text-2xl pr-2 font-bold text-gray-800">
                       {item.name}
                     </h3>
-                    <span className="text-xl md:text-2xl font-bold text-gray-800 ml-4">
+                    <span className="text-base md:text-2xl font-bold text-gray-800 whitespace-nowrap flex-shrink-0">
                       $ {item.price}
                     </span>
                   </div>

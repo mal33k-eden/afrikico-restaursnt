@@ -42,28 +42,28 @@ const Footer = () => {
 
             <div className="flex space-x-4">
               <Link
-                href="#"
+                to="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-400 transition-colors duration-300"
                 aria-label="Facebook"
               >
                 <Facebook className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                to="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-400 transition-colors duration-300"
                 aria-label="Twitter"
               >
                 <Twitter className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                to="https://www.instagram.com/afrikicoresturant"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-400 transition-colors duration-300"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
               </Link>
               <Link
-                href="#"
+                to="#"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-orange-400 transition-colors duration-300"
                 aria-label="YouTube"
               >
@@ -184,7 +184,7 @@ const Footer = () => {
               {instagramImages.map((image, index) => (
                 <Link
                   key={index}
-                  to="/"
+                  to="https://www.instagram.com/afrikicoresturant/"
                   className="relative group overflow-hidden rounded-lg aspect-square"
                 >
                   <img

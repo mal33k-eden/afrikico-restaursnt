@@ -1,24 +1,24 @@
-import { UtensilsCrossed, Coffee, Sandwich } from "lucide-react"
+import { ChefHat, Leaf, ClipboardList } from "lucide-react"
 import { Link } from "react-router-dom"
 
 export default function ServiceSectionTwo() {
   const services = [
     {
-      icon: UtensilsCrossed,
-      title: "Premium Ingredients",
-      description: "We source only the finest, freshest ingredients from trusted local suppliers to ensure every dish meets our.",
+      icon: ChefHat,
+      title: "Event Catering",
+      description: "From corporate events to family celebrations, our catering service offers a customized menu—expertly prepared, beautifully presented, and tailored to your occasion.",
       link: "/menu",
     },
     {
-      icon: Coffee,
-      title: "Authentic Experience",
-      description: "Our experienced chefs bring traditional recipes to life with modern techniques, creating unforgettable flavors in every bite.",
+      icon: Leaf,
+      title: "Vegan Friendly",
+      description: "We offer delicious vegan-friendly options and are happy to adapt dishes to suit your taste or dietary preferences.",
       link: "/menu",
     },
     {
-      icon: Sandwich,
-      title: "Exceptional Service",
-      description: "From the moment you walk in until you leave, our dedicated team ensures your dining experience exceeds all expectations.",
+      icon: ClipboardList,
+      title: "Special Orders",
+      description: "Looking for a specific dish or craving something off-menu? We accept custom food orders with 48 hours' notice. Let us make your favorite meal, your way.",
       link: "/menu",
     },
   ]
@@ -30,7 +30,7 @@ export default function ServiceSectionTwo() {
           <h2
             className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight"
           >
-            Why We Are The Best
+            Expertly Crafted Services
           </h2>
         </div>
 

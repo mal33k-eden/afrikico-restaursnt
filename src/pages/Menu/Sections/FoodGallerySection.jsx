@@ -52,8 +52,7 @@ const FoodGallerySection = () => {
             Our Food Gallery
           </h2>
           <p className="text-gray-500 text-center max-w-2xl mx-auto">
-            Feast your eyes on our culinary creations. Each dish is crafted with
-            passion and the finest ingredients.
+          Good food looks as good as it tastes
           </p>
         </div>
 

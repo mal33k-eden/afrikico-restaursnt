@@ -2,9 +2,9 @@ import { Check } from "lucide-react";
 
 export default function AboutUsSection() {
   const specialDishes = [
-    "Indonesian Fried Rice. Choice of Chicken, Beef Steak",
-    "Wok-fry thin rice noodle. Rice noodle, chicken",
-    "Turmeric coconut rice, chicken sate with peanut sauce",
+    "Waakye, served with stew, spicy sauce, gari, or fried plantain",
+    "Spinach Stew served solo or with your choice of protein",
+    "Fried Rice with vegetables and soy with your choice of protein",
   ];
 
   return (
