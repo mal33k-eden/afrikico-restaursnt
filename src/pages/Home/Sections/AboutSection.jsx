@@ -1,5 +1,6 @@
-import { Check, X } from "lucide-react";
+import { Check, Leaf, X } from "lucide-react";
 import Button from "../../../components/ui/Button";
+import Vegan from "../../../assets/vegan.jpg";
 
 export default function AboutSection() {
   const features = [
@@ -14,11 +15,20 @@ export default function AboutSection() {
       <div className="max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
+          <div className="flex flex-wrap items-center gap-4 mb-8">
             <div className="inline-block relative">
               <div className="bg-primary-orange text-white px-6 py-3 text-sm font-bold tracking-wider uppercase relative">
                 ABOUT US
               </div>
             </div>
+            <div className="sm:ml-auto lg:ml-50">
+              <img
+                src={Vegan}
+                alt="Vegan Friendly"
+                className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 object-contain"
+              />
+            </div>
+          </div>
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-800 leading-tight">
               Afrikico – More Than Just a Meal
             </h2>
@@ -63,6 +73,12 @@ export default function AboutSection() {
                 alt=""
                 className="w-full h-[400px] object-cover rounded-lg shadow-lg"
               />
+            </div>
+            <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm rounded-full px-4 py-2 shadow-lg">
+              <div className="flex items-center space-x-2">
+                <Leaf className="w-5 h-5 text-green-600" />
+                <span className="text-green-800 font-bold text-sm">Vegan Friendly</span>
+              </div>
             </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
