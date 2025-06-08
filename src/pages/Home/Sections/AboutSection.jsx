@@ -1,6 +1,8 @@
 import { Check, Leaf, X } from "lucide-react";
 import Button from "../../../components/ui/Button";
 import Vegan from "../../../assets/vegan.jpg";
+import ImgOne from "../../../assets/food-img/img-1.jpg";
+import ImgFive from "../../../assets/food-img/img-5.jpg";
 
 export default function AboutSection() {
   const features = [
@@ -69,7 +71,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative">
               <img
-                src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-assortment_23-2149141342.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740"
+                src={ImgOne}
                 alt=""
                 className="w-full h-[400px] object-cover rounded-lg shadow-lg"
               />
@@ -82,7 +84,7 @@ export default function AboutSection() {
             </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
-                src="https://media.istockphoto.com/id/1383962772/photo/nigerian-food.jpg?s=612x612&w=0&k=20&c=u-_1qwHBoY9Yh3alnsRbix6hxgl3_TXhT9lpEvlhH10="
+                src={ImgFive}
                 alt=""
                 className="w-full h-full object-cover rounded-lg shadow-xl border-4 border-white"
               />

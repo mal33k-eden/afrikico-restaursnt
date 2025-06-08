@@ -1,13 +1,15 @@
+import ImgFour from "../../../assets/food-img/img-4.jpg";
+
 const FoodGallerySection = () => {
   const allImages = [
     {
       id: 1,
-      src: "https://img.freepik.com/premium-photo/high-angle-view-food-plate-table_1048944-2459683.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      src: "https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Delicious pasta dish",
     },
     {
       id: 2,
-      src: "https://img.freepik.com/premium-photo/assorted-roasted-meat-with-rice-mettalic-tray-wooden_219193-4503.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      src: ImgFour,
       alt: "Grilled salmon",
     },
     {

@@ -23,7 +23,7 @@ const FoodMenuListSection = () => {
       name: "Fried Rice",
       description:
         "A savory stir-fried rice dish with vegetables, soy sauce, and a choice of protein, delivering a satisfying and aromatic experience.",
-      price: 20,
+      price: 22,
       image:
         "https://images.unsplash.com/photo-1664334997177-6ae654a62735?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDN8fHxlbnwwfHx8fHw%3D",
     },
@@ -32,25 +32,25 @@ const FoodMenuListSection = () => {
       name: "Okro",
       description:
         "A traditional okra stew with a slimy texture, spiced and served with sides like banku or rice for an authentic taste.",
-      price: 18,
+      price:24,
       image:
         "https://media.istockphoto.com/id/1406317293/photo/nigerian-okra-okro-soup.webp?a=1&b=1&s=612x612&w=0&k=20&c=N-HrPylhHRHeCwvu5zyp0M1q3WSUFe0qyw_YN8mtRNs=",
     },
     {
       id: 5,
-      name: "Plantain Soup",
+      name: "Afrikico Platter",
       description:
-        "A creamy and savory soup made with ripe plantains, blended with spices and vegetables, perfect for a light yet filling option.",
-      price: 15,
+        "A generous mix of lamb, chicken, shrimp, and fish, served with Jollof rice, Waakye, and a side of rich tomato stew. Serves 2–3.",
+      price: 80,
       image:
-        "https://img.freepik.com/free-photo/still-life-recipe-with-plantain-banana_23-2151023903.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+        "https://images.unsplash.com/photo-1625166913168-9135c6ffddcb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     },
     {
       id: 6,
       name: "Peanut Soup",
       description:
         "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice for a comforting meal.",
-      price: 20,
+      price: 22,
       image:
         "https://img.freepik.com/premium-photo/creamy-peanut-butter-with-nuts-isolated-white_183352-2706.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
     },
@@ -59,7 +59,7 @@ const FoodMenuListSection = () => {
       name: "Spinach Stew",
       description:
         "A nutritious stew made with fresh spinach, cooked with tomatoes and spices, ideal as a side or with a protein.",
-      price: 18,
+      price: 22,
       image:
         "https://img.freepik.com/free-photo/top-view-stewed-spinach-salad-with-carrot-wooden-table_140725-10405.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
     },
@@ -82,15 +82,15 @@ const FoodMenuListSection = () => {
       image: "https://img.freepik.com/free-photo/fried-spring-rolls-cutting-board_1150-17010.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
     },
     {
-      name: "Beef & Chicken Suya ($10.99 | Combo $19.99)",
+      name: "Beef & Chicken Suya",
       description: "Skewered and grilled to perfection, this traditional West African street food features tender beef and chicken infused with bold suya spices — a smoky, spicy blend that captures the heart of the culture.",
-      price: 10.99,
+      price: "10.99 / $19.99",
       image: "https://img.freepik.com/free-photo/closeup-delicious-roasted-meat-with-vegetables-lights_181624-43643.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
     },
     {
-      name: "Meat & Fish Pie ($5.99 / $6.99)",
+      name: "Meat & Fish Pie",
       description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced meat or fish. Each bite delivers the comfort and soul of home-cooked goodness.",
-      price: 5.99,
+      price: "5.99 / $6.99",
       image: "https://img.freepik.com/free-photo/pie-stainless-steel-bowl-beside-black-handled-knife_206566-8.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
     },
     {
@@ -100,9 +100,9 @@ const FoodMenuListSection = () => {
       image: "https://img.freepik.com/free-photo/close-up-delicious-chicken-meal_23-2150741793.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
     },
     {
-      name: "Fried Turkey Tail (Isi Ewu Style) ($9.99 | With Fried Yam $19.99)",
+      name: "Fried Turkey Tail (Isi Ewu Style",
       description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors. Pair with yam for a hearty, satisfying dish.",
-      price: 9.99,
+      price: "9.99 / $19.99",
       image: "https://img.freepik.com/free-photo/baked-chicken-drumsticks-honey-mustard-marinade_2829-7237.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
     },
     {
@@ -135,12 +135,7 @@ const FoodMenuListSection = () => {
       price: 10,
       image: "https://img.freepik.com/free-photo/delicious-fried-food-croquettes-arrangement_23-2149202643.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
     },
-    {
-      name: "Chicken or Beef Wrap",
-      description: "Tender, seasoned chicken or beef wrapped in warm flatbread with fresh vegetables and a touch of house sauce. A handheld meal that brings bold flavor and satisfying comfort in every bite.",
-      price: 9.99,
-      image: "https://img.freepik.com/free-photo/chicken-durum-shaurma-inside-lavash-with-french-fries-wooden-board_114579-65.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
-  },
+
   ]
   return (
     <>

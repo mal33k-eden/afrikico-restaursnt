@@ -1,5 +1,6 @@
 import { Utensils } from "lucide-react";
 import Button from "../../../components/ui/Button";
+import ImgTwo from "../../../assets/food-img/img-2.jpg";
 
 export default function HeroSection() {
 
@@ -38,13 +39,13 @@ export default function HeroSection() {
               <div className="relative  w-full">
                 <div className="relative w-full overflow-hidden animate-float mt-5 rounded-4xl">
                   <img
-                    src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    src={ImgTwo}
                     alt=""
-                    className="object-cover h-full w-full scale-110 hover:scale-125 transition-transform duration-700 animate-subtle-rotate"
+                    className="object-cover h-100 w-full scale-110 hover:scale-125 transition-transform duration-700 animate-subtle-rotate"
                   />
                 </div>
               </div>
-              <div className="absolute -top-8 -left-8 w-16 h-16 bg-gradient-to-br from-yellow-400/30 to-transparent rounded-full blur-sm animate-pulse-slow delay-500"></div>
+              <div className="absolute -top-8 -left-8 w-16 h-100 bg-gradient-to-br from-yellow-400/30 to-transparent rounded-full blur-sm animate-pulse-slow delay-500"></div>
               <div className="absolute -bottom-8 -right-8 w-20 h-20 bg-gradient-to-tl from-orange-400/30 to-transparent rounded-full blur-sm animate-pulse-slow delay-1000"></div>
             </div>
           </div>

@@ -13,12 +13,12 @@ export default function MenuSection() {
       {
         name: "Fried Rice",
         description: "A savory stir-fried rice dish with vegetables, soy sauce, and a choice of protein, delivering a satisfying and aromatic experience.",
-        price: 20,
+        price: 22,
       },
       {
         name: "Okro",
         description: "A traditional okra stew with a slimy texture, spiced and served with sides like banku or rice for an authentic taste.",
-        price: 18,
+        price: 24,
       },
       {
         name: "Plantain Soup",
@@ -28,12 +28,12 @@ export default function MenuSection() {
     {
         name: "Peanut Soup",
         description: "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice for a comforting meal.",
-        price: 20,
+        price: 22,
     },
     {
         name: "Spinach Stew",
         description: "A nutritious stew made with fresh spinach, cooked with tomatoes and spices, ideal as a side or with a protein.",
-        price: 18,
+        price: 22,
     },
     {
         name: "Tilapia",
