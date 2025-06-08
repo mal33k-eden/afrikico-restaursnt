@@ -1,6 +1,5 @@
 import { Utensils } from "lucide-react";
 import Button from "../../../components/ui/Button";
-import ImgTwo from "../../../assets/food-img/img-2.jpg";
 
 export default function HeroSection() {
 
@@ -39,7 +38,7 @@ export default function HeroSection() {
               <div className="relative  w-full">
                 <div className="relative w-full overflow-hidden animate-float mt-5 rounded-4xl">
                   <img
-                    src={ImgTwo}
+                    src="https://static.vecteezy.com/system/resources/previews/049/180/936/non_2x/delicious-jollof-rice-serving-free-photo.jpg"
                     alt=""
                     className="object-cover h-100 w-full scale-110 hover:scale-125 transition-transform duration-700 animate-subtle-rotate"
                   />

@@ -1,15 +1,13 @@
-import ImgFour from "../../../assets/food-img/img-4.jpg";
-
 const FoodGallerySection = () => {
   const allImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: "https://img.freepik.com/free-photo/closeup-delicious-roasted-meat-with-vegetables-lights_181624-43643.jpg?t=st=1749405641~exp=1749409241~hmac=628bae11b394a367ed1437f97cb700b1b41dd7630f9b2f4b69476474d09c4514&w=1380",
       alt: "Delicious pasta dish",
     },
     {
       id: 2,
-      src: ImgFour,
+      src: "https://images.unsplash.com/photo-1625166913168-9135c6ffddcb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       alt: "Grilled salmon",
     },
     {

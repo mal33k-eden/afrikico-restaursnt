@@ -178,7 +178,7 @@ const Footer = () => {
               className="text-xl font-bold mb-6 text-white"
               style={{ fontFamily: "var(--body-font)" }}
             >
-              Follow Instagram
+              The Best Taste of Africa!
             </h4>
             <div className="grid grid-cols-3 gap-2">
               {instagramImages.map((image, index) => (

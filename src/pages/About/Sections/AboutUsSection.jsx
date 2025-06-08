@@ -1,5 +1,4 @@
 import { Check } from "lucide-react";
-import ImgFour from "../../../assets/food-img/img-4.jpg";
 
 export default function AboutUsSection() {
   const specialDishes = [
@@ -15,7 +14,7 @@ export default function AboutUsSection() {
           <div className="relative">
             <div className="relative z-10 max-w-md">
               <img
-                src={ImgFour}
+                src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                 alt="afrikico"
                 className="w-full h-90 lg:w-170 lg:h-120 md:w-170 md:h-130 rounded-md shadow-lg object-cover"
               />
@@ -23,7 +22,7 @@ export default function AboutUsSection() {
 
             <div className="absolute bottom-0 right-0 md:-right-2 z-20 w-64 md:w-80">
               <img
-                src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://img.freepik.com/free-photo/closeup-delicious-roasted-meat-with-vegetables-lights_181624-43643.jpg?t=st=1749405641~exp=1749409241~hmac=628bae11b394a367ed1437f97cb700b1b41dd7630f9b2f4b69476474d09c4514&w=1380"
                 alt="afrikico"
                 className="w-full h-auto rounded-md shadow-lg border-4 border-white"
               />
