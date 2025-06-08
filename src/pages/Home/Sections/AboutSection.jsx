@@ -74,12 +74,6 @@ export default function AboutSection() {
                 className="w-full h-[500px] object-cover rounded-lg shadow-lg"
               />
             </div>
-            <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-sm rounded-full px-4 py-2 shadow-lg">
-              <div className="flex items-center space-x-2">
-                <Leaf className="w-5 h-5 text-green-600" />
-                <span className="text-green-800 font-bold text-sm">Vegan Friendly</span>
-              </div>
-            </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
                 src="https://images.unsplash.com/photo-1665401015549-712c0dc5ef85?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
