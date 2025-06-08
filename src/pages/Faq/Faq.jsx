@@ -30,6 +30,16 @@ const Faq = () => {
       answer:
         "Yes, we offer catering services for events of all sizes. Contact us to learn more about our menu options and pricing.",
     },
+    {
+    question: "How long does it take to prepare meals?",
+    answer:
+        "Our meals are made fresh and usually take 15–25 minutes. To save time, feel free to call ahead and pre-order.",
+    },
+    {
+      question: "What if I have allergies or dietary needs?",
+      answer:
+        "Please let us know when ordering. While we do our best to accommodate special requests, kindly note that our kitchen does use nuts, seafood, dairy, and other common allergens.",
+    },
   ];
   const toggleFAQ = (index) => {
     setOpenIndex(openIndex === index ? -1 : index);
