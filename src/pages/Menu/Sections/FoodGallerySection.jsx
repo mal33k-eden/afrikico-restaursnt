@@ -2,42 +2,42 @@ const FoodGallerySection = () => {
   const allImages = [
     {
       id: 1,
-      src: "https://images.unsplash.com/photo-1626266799502-ec96e7cc4bce?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8",
-      alt: "Delicious pasta dish with fresh herbs",
+      src: "https://img.freepik.com/premium-photo/high-angle-view-food-plate-table_1048944-2459683.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      alt: "Delicious pasta dish",
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1628521061262-19b5cdb7eee5?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
-      alt: "Grilled salmon with vegetables",
+      src: "https://img.freepik.com/premium-photo/assorted-roasted-meat-with-rice-mettalic-tray-wooden_219193-4503.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      alt: "Grilled salmon",
     },
     {
       id: 3,
-      src: "https://images.unsplash.com/photo-1666190092689-e3968aa0c32c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMxfHx8ZW58MHx8fHx8",
-      alt: "Chocolate dessert with berries",
+      src: "https://img.freepik.com/premium-photo/manchurian-hakka-schezwan-noodles-popular-indochinese-food-served-bowl-selective-focus_466689-34637.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      alt: "Chocolate dessert",
     },
     {
       id: 4,
       src: "https://images.unsplash.com/photo-1664717698774-84f62382613b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8",
-      alt: "Fresh salad with avocado",
+      alt: "Fresh salad",
     },
     {
       id: 5,
-      src: "https://images.unsplash.com/photo-1702827496401-216be3f435d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
-      alt: "Seafood platter with oysters",
+      src: "https://img.freepik.com/premium-photo/assorted-traditional-african-dishes-with-jollof-rice-collard-greens-barbecued-meat-served_996993-8679.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      alt: "Seafood platter",
     },
     {
       id: 6,
-      src: "https://images.unsplash.com/photo-1712565043059-cd19ff8394cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
+      src: "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
       alt: "Steak with roasted potatoes",
     },
     {
       id: 7,
-      src: "https://images.unsplash.com/photo-1647998270792-69ac80570183?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8QWZyaWNhbiUyMGZvb2QlMjBhYm91dHxlbnwwfHwwfHx8MA%3D%3D",
+      src: "https://img.freepik.com/premium-photo/ebony-eats-extravaganza-black-food-photo_960396-307367.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
       alt: "Artisan cheese board",
     },
     {
       id: 8,
-      src: "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QWZyaWNhbiUyMGZvb2QlMjBhYm91dHxlbnwwfHwwfHx8MA%3D%3D",
+      src: "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
       alt: "Handcrafted cocktail",
     },
   ];

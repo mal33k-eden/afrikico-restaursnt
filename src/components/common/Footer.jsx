@@ -12,12 +12,12 @@ import Logo from "../../assets/logo.png";
 
 const Footer = () => {
   const instagramImages = [
-    "https://images.unsplash.com/photo-1712565043059-cd19ff8394cb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
-    "https://plus.unsplash.com/premium_photo-1695297516692-82b537c62733?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1666190092689-e3968aa0c32c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDMxfHx8ZW58MHx8fHx8",
+    "https://img.freepik.com/premium-photo/high-angle-view-food-plate-table_1048944-2459683.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+    "https://images.unsplash.com/photo-1664717698774-84f62382613b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8",
+    "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
     "https://images.unsplash.com/photo-1702827496401-216be3f435d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
     "https://images.unsplash.com/photo-1702827482483-d17c40082dfd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8QWZyaWNhbiUyMGZvb2QlMjBhYm91dHxlbnwwfHwwfHx8MA%3D%3D",
+    "https://img.freepik.com/premium-photo/assorted-traditional-african-dishes-with-jollof-rice-collard-greens-barbecued-meat-served_996993-8679.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
   ];
 
   return (

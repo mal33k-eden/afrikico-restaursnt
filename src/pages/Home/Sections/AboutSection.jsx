@@ -69,7 +69,7 @@ export default function AboutSection() {
           <div className="relative">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1701566688193-138f26394b07?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="https://img.freepik.com/free-photo/top-view-table-full-delicious-food-assortment_23-2149141342.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740"
                 alt=""
                 className="w-full h-[400px] object-cover rounded-lg shadow-lg"
               />
@@ -82,7 +82,7 @@ export default function AboutSection() {
             </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
-                src="https://images.unsplash.com/photo-1539755530862-00f623c00f52?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fHw%3D"
+                src="https://media.istockphoto.com/id/1383962772/photo/nigerian-food.jpg?s=612x612&w=0&k=20&c=u-_1qwHBoY9Yh3alnsRbix6hxgl3_TXhT9lpEvlhH10="
                 alt=""
                 className="w-full h-full object-cover rounded-lg shadow-xl border-4 border-white"
               />

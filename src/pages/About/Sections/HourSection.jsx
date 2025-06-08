@@ -34,7 +34,7 @@ export default function HourSection() {
             <div className="relative w-full max-w-md">
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="https://img.freepik.com/premium-photo/vegetarian-injera-meal-with-shiro-lentils-egg-variety-vegetables-being-shared_1048944-14658461.jpg?ga=GA1.1.1712459103.1742075098&semt=ais_hybrid&w=740"
+                  src="https://img.freepik.com/free-photo/fried-chicken-with-grilled-potatoes-eggplants-tomatoes-peppers_140725-7841.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740"
                   alt="Chef preparing gourmet dishes"
                   className="w-full h-90 md:w-200 lg:w-full lg:h-90 sm:w-full object-cover"
                 />
