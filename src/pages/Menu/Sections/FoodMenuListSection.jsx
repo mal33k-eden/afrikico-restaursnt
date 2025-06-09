@@ -1,3 +1,6 @@
+import ImgOne from "../../../assets/food-img/img-1.jpg";
+import ImgTwo from "../../../assets/food-img/img-2.jpg";
+
 const FoodMenuListSection = () => {
   const menuItems = [
     {
@@ -51,8 +54,7 @@ const FoodMenuListSection = () => {
       description:
         "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice for a comforting meal.",
       price: 22,
-      image:
-        "https://img.freepik.com/premium-photo/creamy-peanut-butter-with-nuts-isolated-white_183352-2706.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      image: ImgOne,
     },
     {
       id: 7,
@@ -69,8 +71,7 @@ const FoodMenuListSection = () => {
       description:
         "A whole grilled or fried tilapia fish, seasoned with a spicy pepper sauce, offering a flavorful seafood experience.",
       price: 25,
-      image:
-        "https://img.freepik.com/premium-photo/close-up-grilled-fish-with-salad_1048944-3178380.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      image: ImgTwo
     },
   ];
   // Appetizer List
@@ -100,7 +101,7 @@ const FoodMenuListSection = () => {
       image: "https://img.freepik.com/free-photo/close-up-delicious-chicken-meal_23-2150741793.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
     },
     {
-      name: "Fried Turkey Tail (Isi Ewu Style",
+      name: "Fried Turkey Tail",
       description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors. Pair with yam for a hearty, satisfying dish.",
       price: "9.99 / $19.99",
       image: "https://img.freepik.com/free-photo/baked-chicken-drumsticks-honey-mustard-marinade_2829-7237.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
