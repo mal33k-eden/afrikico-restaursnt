@@ -4,7 +4,7 @@ export default function HourSection() {
   const openingHours = [
     { days: "Tue - Thur:", time: "11:00 am - 09:00pm" },
     { days: "Friday:", time: "11:00 am - 10:30pm" },
-    { days: "Saturday:", time: "11:00 am - 12:00 pm" },
+    { days: "Saturday:", time: "10:00 am - Midnight" },
     { days: "Sunday:", time: "10:00 am - 9:00 pm" },
   ];
 
