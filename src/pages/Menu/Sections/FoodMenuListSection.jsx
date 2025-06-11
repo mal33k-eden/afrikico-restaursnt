@@ -5,6 +5,7 @@ import ImgSeven from "../../../assets/food-img/img-7.jpg";
 import ImgEight from "../../../assets/food-img/img-8.jpg";
 import ImgTen from "../../../assets/food-img/img-10.jpg";
 import ImgNine from "../../../assets/food-img/img-9.jpg";
+import ImgThree from "../../../assets/food-img/img-3.jpg";
 
 const FoodMenuListSection = () => {
   const menuItems = [
@@ -45,12 +46,11 @@ const FoodMenuListSection = () => {
     },
     {
       id: 5,
-      name: "Afrikico Platter",
+      name: "Fufu with Goat Light Soup",
       description:
-        "A generous mix of lamb, chicken, shrimp, and fish, served with Jollof rice, Waakye, and a side of rich tomato stew. Serves 2–3.",
+        "A hearty combination of Fufu and tender goat meat simmered in a rich, flavorful light soup. Served hot and perfect for sharing.",
       price: 80,
-      image:
-        "https://images.unsplash.com/photo-1625166913168-9135c6ffddcb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      image:ImgThree,
     },
     {
       id: 6,

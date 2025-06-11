@@ -1,4 +1,4 @@
-import ImgOne from "../../../assets/food-img/img-1.jpg";
+import ImgFour from "../../../assets/food-img/img-4.jpg";
 import { Check } from "lucide-react";
 
 export default function AboutUsSection() {
@@ -13,19 +13,18 @@ export default function AboutUsSection() {
       <div className="max-w-7xl mx-auto">
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div className="relative">
-            <div className="relative z-10 max-w-md">
+            <div className="relative">
               <img
                 src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                alt="afrikico"
-                className="w-full h-90 lg:w-170 lg:h-120 md:w-170 md:h-130 rounded-md shadow-lg object-cover"
+                alt=""
+                className="w-full h-[500px] object-cover rounded-lg shadow-lg"
               />
             </div>
-
-            <div className="absolute bottom-0 right-0 md:-right-2 z-20 w-64 md:w-80">
+            <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
-                src={ImgOne}
-                alt="afrikico"
-                className="w-full h-auto rounded-md shadow-lg border-4 border-white"
+                src={ImgFour}
+                alt=""
+                className="w-full h-full object-cover rounded-lg shadow-xl border-4 border-white"
               />
             </div>
           </div>
