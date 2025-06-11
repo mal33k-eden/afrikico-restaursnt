@@ -1,4 +1,6 @@
 import ImgOne from "../../../assets/food-img/img-1.jpg";
+import ImgFive from "../../../assets/food-img/img-5.jpg";
+import ImgFour from "../../../assets/food-img/img-4.jpg";
 const FoodGallerySection = () => {
   const allImages = [
     {
@@ -8,12 +10,12 @@ const FoodGallerySection = () => {
     },
     {
       id: 2,
-      src: "https://images.unsplash.com/photo-1625166913168-9135c6ffddcb?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      src: ImgFive,
       alt: "Grilled salmon",
     },
     {
       id: 3,
-      src: "https://img.freepik.com/premium-photo/manchurian-hakka-schezwan-noodles-popular-indochinese-food-served-bowl-selective-focus_466689-34637.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      src: ImgFour,
       alt: "Chocolate dessert",
     },
     {
