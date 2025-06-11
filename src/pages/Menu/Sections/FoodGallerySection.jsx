@@ -1,8 +1,9 @@
+import ImgOne from "../../../assets/food-img/img-1.jpg";
 const FoodGallerySection = () => {
   const allImages = [
     {
       id: 1,
-      src: "https://img.freepik.com/free-photo/closeup-delicious-roasted-meat-with-vegetables-lights_181624-43643.jpg?t=st=1749405641~exp=1749409241~hmac=628bae11b394a367ed1437f97cb700b1b41dd7630f9b2f4b69476474d09c4514&w=1380",
+      src: ImgOne,
       alt: "Delicious pasta dish",
     },
     {

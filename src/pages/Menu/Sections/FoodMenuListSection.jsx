@@ -1,5 +1,10 @@
 import ImgOne from "../../../assets/food-img/img-1.jpg";
 import ImgTwo from "../../../assets/food-img/img-2.jpg";
+import ImgSix from "../../../assets/food-img/img-6.jpg";
+import ImgSeven from "../../../assets/food-img/img-7.jpg";
+import ImgEight from "../../../assets/food-img/img-8.jpg";
+import ImgTen from "../../../assets/food-img/img-10.jpg";
+import ImgNine from "../../../assets/food-img/img-9.jpg";
 
 const FoodMenuListSection = () => {
   const menuItems = [
@@ -9,8 +14,7 @@ const FoodMenuListSection = () => {
       description:
         "A flavorful West African rice dish cooked with tomatoes, peppers, and spices, offering a rich and spicy taste. Perfect as a hearty standalone meal.",
       price: 20,
-      image:
-        "https://images.unsplash.com/photo-1664992960082-0ea299a9c53e?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Sm9sbG9mJTIwcmljZXxlbnwwfHwwfHx8MA%3D%3D",
+      image: ImgSeven,
     },
     {
       id: 2,
@@ -62,8 +66,7 @@ const FoodMenuListSection = () => {
       description:
         "A nutritious stew made with fresh spinach, cooked with tomatoes and spices, ideal as a side or with a protein.",
       price: 22,
-      image:
-        "https://img.freepik.com/free-photo/top-view-stewed-spinach-salad-with-carrot-wooden-table_140725-10405.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      image:ImgSix,
     },
     {
       id: 8,
@@ -92,7 +95,7 @@ const FoodMenuListSection = () => {
       name: "Meat & Fish Pie",
       description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced meat or fish. Each bite delivers the comfort and soul of home-cooked goodness.",
       price: "5.99 / $6.99",
-      image: "https://img.freepik.com/free-photo/pie-stainless-steel-bowl-beside-black-handled-knife_206566-8.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
+      image: ImgEight,
     },
     {
       name: "Fried Turkey Wing (Peppered)",
@@ -104,7 +107,7 @@ const FoodMenuListSection = () => {
       name: "Fried Turkey Tail",
       description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors. Pair with yam for a hearty, satisfying dish.",
       price: "9.99 / $19.99",
-      image: "https://img.freepik.com/free-photo/baked-chicken-drumsticks-honey-mustard-marinade_2829-7237.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
+      image: ImgTen,
     },
     {
         name: "Peppered Gizzard",
@@ -116,7 +119,7 @@ const FoodMenuListSection = () => {
         name: "Fried Chicken Suya Wings",
         description: "Crispy chicken wings rubbed in signature suya spice blend — smoky, spicy, and utterly addictive.",
       price: 10.99,
-      image: "https://img.freepik.com/free-photo/closeup-shot-delicious-spiced-chicken-legs-with-french-fries-table_181624-46659.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
+      image: ImgNine,
     },
     {
       name: "Kelewele (Fried Plantains)",
