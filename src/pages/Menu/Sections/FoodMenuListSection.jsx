@@ -1,11 +1,12 @@
 import ImgOne from "../../../assets/food-img/img-1.jpg";
-import ImgTwo from "../../../assets/food-img/img-2.jpg";
+import ImgThree from "../../../assets/food-img/img-3.jpg";
 import ImgSix from "../../../assets/food-img/img-6.jpg";
 import ImgSeven from "../../../assets/food-img/img-7.jpg";
 import ImgEight from "../../../assets/food-img/img-8.jpg";
-import ImgTen from "../../../assets/food-img/img-10.jpg";
 import ImgNine from "../../../assets/food-img/img-9.jpg";
-import ImgThree from "../../../assets/food-img/img-3.jpg";
+import ImgTen from "../../../assets/food-img/img-10.jpg";
+import ImgEleven from "../../../assets/food-img/img-11.jpeg";
+import ImgTwelve from "../../../assets/food-img/img-12.jpg";
 
 const FoodMenuListSection = () => {
   const menuItems = [
@@ -74,7 +75,7 @@ const FoodMenuListSection = () => {
       description:
         "A whole grilled or fried tilapia fish, seasoned with a spicy pepper sauce, offering a flavorful seafood experience.",
       price: 25,
-      image: ImgTwo
+      image: ImgTwelve
     },
   ];
   // Appetizer List
@@ -113,7 +114,7 @@ const FoodMenuListSection = () => {
         name: "Peppered Gizzard",
         description: "Tender chicken gizzards simmered in a rich, spicy pepper marinade. Bursting with bold flavor and perfect for spice lovers.",
       price: 9.99,
-      image: "https://img.freepik.com/free-photo/top-view-vegetable-soup-with-meat-inside-plate-grey_140725-36040.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
+      image: ImgEleven,
     },
     {
         name: "Fried Chicken Suya Wings",
