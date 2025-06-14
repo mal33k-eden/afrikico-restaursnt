@@ -35,7 +35,7 @@ export default function AboutSection() {
               Afrikico – More Than Just a Meal
             </h2>
             <p className="text-gray-600 leading-relaxed text-base">
-            At Afrikico, we're all about the everyday African meals that resonate with real meaning. These are the flavors we grew up with, craved, and now craft exactly as they should be. <br /> We're talking Jollof with true depth, Suya with the perfect heat, and stews that take their time for a reason.
+              Afrikico is more than just a place to eat—it's where West African tradition comes alive through comforting flavors and heartfelt hospitality. <br /> From slow-simmered stews to perfectly grilled fish and Jollof rice, each dish is handcrafted with fresh ingredients and bold, authentic spices.
             </p>
             <div className="grid grid-cols-2 gap-4">
               {features.map((feature, index) => (

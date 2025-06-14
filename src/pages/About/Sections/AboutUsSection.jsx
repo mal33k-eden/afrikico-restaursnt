@@ -35,20 +35,45 @@ export default function AboutUsSection() {
                 ABOUT US
               </div>
             </div>
+            
+            <div className="space-y-4">
+              <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-gray-800 leading-tight">
+                Welcome to Afrikico Restaurant
+              </h2>
+              <p className="text-lg text-primary-orange font-semibold">
+                Where Flavor Meets Culture, and Every Meal Tells a Story
+              </p>
+            </div>
+            
+            <div className="space-y-4 text-gray-600 leading-relaxed">
+              <p>
+                Afrikico is more than just a place to eat—it's where West African tradition comes alive through comforting flavors and heartfelt hospitality. From slow-simmered stews to perfectly grilled fish and Jollof rice, each dish is handcrafted with fresh ingredients and bold, authentic spices.
+              </p>
+              
+              <p>
+                This restaurant began as a dream—born from childhood memories of home-cooked meals and the joy of sharing them with loved ones. Afrikico is our way of bringing that feeling to you.
+              </p>
+              
+              <p>
+                Whether you're dining in, taking out, or ordering ahead, we can't wait to serve you food made with care and culture.
+              </p>
+            </div>
+            
+            <div className="pt-6 border-t border-gray-100">
+              <p className="text-gray-700 font-medium">Warmly,</p>
+              <div className="mt-2">
+                <p className="text-xl font-bold text-gray-800">Ms. J</p>
+                <p className="text-primary-orange font-semibold text-sm tracking-wide">
+                  FOUNDER & HEAD OF FLAVOR
+                </p>
+              </div>
+            </div>
 
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-800 leading-tight">
-              Afrikico – More Than Just a Meal
-            </h2>
-
-            <p className="text-gray-600 leading-relaxed">
-              At Afrikico, we're all about the everyday African meals that resonate with real meaning. These are the flavors we grew up with, craved, and now craft exactly as they should be. <br /> <br />
-              We're talking Jollof with true depth, Suya with the perfect heat, and stews that take their time for a reason. Whether you know these tastes intimately or are trying them for the first time, our goal is simple: let the flavors speak for themselves. 
-            </p>
-            <div className="space-y-4 pt-4">
+            <div className="space-y-4 pt-6 border-t border-gray-200">
               <h3 className="text-2xl font-bold text-gray-800">
                 Our Special Dish Of The Day
               </h3>
-
+              
               <div className="space-y-3">
                 {specialDishes.map((dish, index) => (
                   <div key={index} className="flex items-start space-x-3">
