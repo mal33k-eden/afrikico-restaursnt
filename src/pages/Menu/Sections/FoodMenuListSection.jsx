@@ -19,14 +19,14 @@ const FoodMenuListSection = () => {
       name: "Fried Rice",
       description:
         "A savory stir-fried rice dish with vegetables, soy sauce, and a choice of protein, delivering a satisfying and aromatic experience.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=", 
+      image: "../images/food-img/dummy.jpg", 
     },
     {
       id: 4,
       name: "Okro",
       description:
         "A traditional okra stew with a slimy texture, spiced and served with sides like banku or rice for an authentic taste.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
     {
       id: 5,
@@ -77,42 +77,42 @@ const FoodMenuListSection = () => {
     {
       name: "Spring Rolls",
       description: "Crispy, golden pastry rolls filled with a vibrant medley of seasoned vegetables. A light, flavorful bite to start your meal off right.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=", 
+      image: "../images/food-img/dummy.jpg", 
     },
     {
       name: "Beef & Chicken Suya",
       description: "Skewered and grilled to perfection, this traditional West African street food features tender beef and chicken infused with bold suya spices — a smoky, spicy blend that captures the heart of the culture.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
     {
       name: "Meat & Fish Pie",
       description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced meat or fish. Each bite delivers the comfort and soul of home-cooked goodness.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
     {
       name: "Fried Turkey Wing (Peppered)",
       description: "Juicy turkey wings marinated in a spicy pepper sauce, fried to a crispy finish. A fiery kick in every flavorful bite.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=", 
+      image: "../images/food-img/dummy.jpg", 
     },
     {
       name: "Fried Turkey Tail",
       description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors. Pair with yam for a hearty, satisfying dish.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
     {
         name: "Peppered Gizzard",
         description: "Tender chicken gizzards simmered in a rich, spicy pepper marinade. Bursting with bold flavor and perfect for spice lovers.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
     {
         name: "Fried Chicken Suya Wings",
         description: "Crispy chicken wings rubbed in signature suya spice blend — smoky, spicy, and utterly addictive.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
     {
       name: "Kelewele (Fried Plantains)",
       description: "Golden fried plantain cubes tossed with ginger, chili, and fragrant West African spices. Sweet, spicy, and absolutely irresistible.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
     {
       name: "Domedo (Fried Seasoned Pork)",
@@ -122,7 +122,7 @@ const FoodMenuListSection = () => {
     {
       name: "Potato Balls",
       description: "Crispy on the outside, soft and savory inside — these golden potato balls are seasoned and fried to perfection. A deliciously comforting snack or side with a hint of spice in every bite.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/dummy.jpg",
     },
   ];
 
