@@ -2,7 +2,7 @@ import { Check, Leaf, X } from "lucide-react";
 import Button from "../../../components/ui/Button";
 import Vegan from "../../../assets/vegan.jpg";
 import ImgThree from "../../../assets/food-img/img-3.jpg";
-import ImgFour from "../../../assets/food-img/img-4.jpg";
+import ImgSeven from "../../../assets/food-img/img-7.jpg";
 
 export default function AboutSection() {
   const features = [
@@ -78,7 +78,7 @@ export default function AboutSection() {
             </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
-                src={ImgFour}
+                src={ImgSeven}
                 alt=""
                 className="w-full h-full object-cover rounded-lg shadow-xl border-4 border-white"
               />

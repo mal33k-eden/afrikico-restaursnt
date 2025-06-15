@@ -7,6 +7,8 @@ import ImgNine from "../../../assets/food-img/img-9.jpg";
 import ImgTen from "../../../assets/food-img/img-10.jpg";
 import ImgEleven from "../../../assets/food-img/img-11.jpeg";
 import ImgTwelve from "../../../assets/food-img/img-12.jpg";
+import ImgThirteen from "../../../assets/food-img/img-13.jpg";
+import ImgFourteen from "../../../assets/food-img/img-14.jpg";
 
 const FoodMenuListSection = () => {
   const menuItems = [
@@ -24,8 +26,7 @@ const FoodMenuListSection = () => {
       description:
         " A Ghanaian specialty of rice and beans cooked with millet leaves, served with stew, spicy sauce, and sides like gari or fried plantain.",
       price: 22,
-      image:
-        "https://images.unsplash.com/photo-1610592309005-0f92c8e39cec?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Z2hhbmElMjBXYWFreWUlMjBmb29kfGVufDB8fDB8fHww",
+      image: ImgFourteen
     },
     {
       id: 3,
@@ -76,6 +77,14 @@ const FoodMenuListSection = () => {
         "A whole grilled or fried tilapia fish, seasoned with a spicy pepper sauce, offering a flavorful seafood experience.",
       price: 25,
       image: ImgTwelve
+    },
+    {
+      id: 9,
+      name: "Palm Soup with Rice Balls",
+      description:
+        "A rich, earthy soup made from palmnut extract, slow-cooked with meats and spices — served with soft, smooth rice balls to soak up every drop.",
+      price: 25,
+      image: ImgFourteen
     },
   ];
   // Appetizer List
@@ -132,7 +141,7 @@ const FoodMenuListSection = () => {
       name: "Domedo (Fried Seasoned Pork)",
       description: "Succulent chunks of pork marinated in aromatic spices, then fried until perfectly crispy on the outside and juicy inside. A rich, flavorful dish that’s a celebration of bold seasoning and satisfying texture.",
       price: 9.99,
-      image: "https://img.freepik.com/free-photo/closeup-roasted-meat-with-sauce-vegetables-fries-plate-table_181624-35847.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740" ,
+      image: ImgThirteen,
     },
     {
       name: "Potato Balls",
