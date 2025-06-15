@@ -1,6 +1,4 @@
 import { Crown, Shield, Heart } from "lucide-react"
-import ImgFive from "../../../assets/food-img/img-5.jpg";
-
 export default function ServiceSectionOne() {
   const services = [
     {
@@ -27,7 +25,7 @@ export default function ServiceSectionOne() {
           <div className="relative">
             <div className="relative z-10 max-w-full">
               <img
-                src={ImgFive}
+                src="../images/food-img/img-5.jpg"
                 alt="afrikico"
                 className="w-full h-auto rounded-md shadow-lg"
               />

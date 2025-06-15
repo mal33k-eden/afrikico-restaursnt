@@ -1,46 +1,43 @@
-import ImgOne from "../../../assets/food-img/img-1.jpg";
-import ImgFive from "../../../assets/food-img/img-5.jpg";
-import ImgFour from "../../../assets/food-img/img-4.jpg";
 const FoodGallerySection = () => {
   const allImages = [
     {
       id: 1,
-      src: ImgOne,
+      src: "../images/food-img/img-1.jpg",
       alt: "Delicious pasta dish",
     },
     {
       id: 2,
-      src: ImgFive,
+      src: "../images/food-img/img-5.jpg",
       alt: "Grilled salmon",
     },
     {
       id: 3,
-      src: ImgFour,
+      src: "../images/food-img/img-14.jpg",
       alt: "Chocolate dessert",
     },
     {
       id: 4,
-      src: "https://images.unsplash.com/photo-1664717698774-84f62382613b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8",
+      src: "../images/food-img/img-2.jpg",
       alt: "Fresh salad",
     },
     {
       id: 5,
-      src: "https://img.freepik.com/premium-photo/assorted-traditional-african-dishes-with-jollof-rice-collard-greens-barbecued-meat-served_996993-8679.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      src: "../images/food-img/img-6.jpg",
       alt: "Seafood platter",
     },
     {
       id: 6,
-      src: "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      src: "../images/food-img/img-17.jpg",
       alt: "Steak with roasted potatoes",
     },
     {
       id: 7,
-      src: "https://img.freepik.com/premium-photo/ebony-eats-extravaganza-black-food-photo_960396-307367.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      src: "../images/food-img/img-13.jpg",
       alt: "Artisan cheese board",
     },
     {
       id: 8,
-      src: "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+      src: "../images/food-img/img-14.jpg",
       alt: "Handcrafted cocktail",
     },
   ];

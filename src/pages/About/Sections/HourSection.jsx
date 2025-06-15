@@ -34,7 +34,7 @@ export default function HourSection() {
             <div className="relative w-full max-w-md">
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <img
-                  src="https://static.vecteezy.com/system/resources/previews/049/180/936/non_2x/delicious-jollof-rice-serving-free-photo.jpg"
+                  src="../images/food-img/img-13.jpg"
                   alt="Chef preparing gourmet dishes"
                   className="w-full h-90 md:w-200 lg:w-full lg:h-90 sm:w-full object-cover"
                 />

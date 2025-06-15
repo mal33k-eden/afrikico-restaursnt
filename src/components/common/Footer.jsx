@@ -12,12 +12,12 @@ import Logo from "../../assets/logo.png";
 
 const Footer = () => {
   const instagramImages = [
-    "https://img.freepik.com/premium-photo/high-angle-view-food-plate-table_1048944-2459683.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
-    "https://images.unsplash.com/photo-1664717698774-84f62382613b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDQ1fHx8ZW58MHx8fHx8",
-    "https://img.freepik.com/free-photo/side-view-pilaf-with-stewed-beef-meat-plate_141793-5057.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
-    "https://images.unsplash.com/photo-1702827496401-216be3f435d0?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
-    "https://images.unsplash.com/photo-1702827482483-d17c40082dfd?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fEFmcmljYW4lMjBmb29kJTIwYWJvdXR8ZW58MHx8MHx8fDA%3D",
-    "https://img.freepik.com/premium-photo/assorted-traditional-african-dishes-with-jollof-rice-collard-greens-barbecued-meat-served_996993-8679.jpg?ga=GA1.1.1683516360.1749035478&semt=ais_hybrid&w=740",
+    "../images/food-img/img-2.jpg",
+    "../images/food-img/img-14.jpg",
+    "../images/food-img/img-17.jpg",
+    "../images/food-img/img-5.jpg",
+    "../images/food-img/img-16.jpg",
+    "../images/food-img/img-1.jpg",
   ];
 
   return (

@@ -1,4 +1,3 @@
-import ImgFour from "../../../assets/food-img/img-4.jpg";
 import { Check } from "lucide-react";
 
 export default function AboutUsSection() {
@@ -15,14 +14,14 @@ export default function AboutUsSection() {
           <div className="relative">
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1665332195309-9d75071138f0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                src="../images/food-img/img-16.jpg"
                 alt=""
                 className="w-full h-[500px] object-cover rounded-lg shadow-lg"
               />
             </div>
             <div className="absolute -bottom-8 -right-2 w-67 h-60">
               <img
-                src={ImgFour}
+                src="../images/food-img/img-7.jpg"
                 alt=""
                 className="w-full h-full object-cover rounded-lg shadow-xl border-4 border-white"
               />

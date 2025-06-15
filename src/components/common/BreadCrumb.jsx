@@ -1,7 +1,6 @@
 import React from "react"
 import { Home, ChevronRight } from "lucide-react"
 import { Link, useLocation } from "react-router-dom"
-import ImgSixteen from "../../assets/food-img/img-16.jpg";
 
 const BreadCrumb = () => {
     const location = useLocation();
@@ -11,7 +10,7 @@ const BreadCrumb = () => {
     <div className="relative h-50 md:h-56 flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0">
         <img
-          src={ImgSixteen}
+          src="../images/food-img/img-16.jpg"
           alt="Breadcrumb Background"
           className="w-full h-full object-cover "
         />

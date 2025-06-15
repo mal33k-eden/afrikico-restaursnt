@@ -1,6 +1,5 @@
 import { Utensils } from "lucide-react";
 import Button from "../../../components/ui/Button";
-import ImgFifteen from "../../../assets/food-img/img-15.jpg";
 
 export default function HeroSection() {
 
@@ -39,7 +38,7 @@ export default function HeroSection() {
               <div className="relative  w-full">
                 <div className="relative w-full overflow-hidden animate-float mt-5 rounded-4xl">
                   <img
-                    src={ImgFifteen}
+                    src="../images/food-img/img-15.jpg"
                     alt=""
                     className="object-cover h-100 w-full scale-110 hover:scale-125 transition-transform duration-700 animate-subtle-rotate"
                   />
