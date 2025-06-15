@@ -33,7 +33,7 @@ const FoodMenuListSection = () => {
       name: "Fufu with Goat Light Soup",
       description:
         "A hearty combination of Fufu and tender goat meat simmered in a rich, flavorful light soup. Served hot and perfect for sharing.",
-      image: "https://media.istockphoto.com/id/473502382/photo/plastic-head-of-mannequin-on-plate-white-background.webp?a=1&b=1&s=612x612&w=0&k=20&c=RFgG3uAowEJS-080Zr3pUCIJgYIjT6nI2Di5zB_7oC8=",
+      image: "../images/food-img/img-10.jpg",
     },
     {
       id: 6,
