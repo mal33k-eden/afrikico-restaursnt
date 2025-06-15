@@ -13,7 +13,7 @@ export default function ServiceSectionOne() {
     },
     {
       icon: Heart,
-      title: "Exceptional Service",
+      title: "Exceptional Services",
       description: "Friendly, attentive service from start to finish",
     },
   ]
