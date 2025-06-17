@@ -17,8 +17,7 @@ const Contact = () => {
       icon: MapPin,
       title: "Our Address",
       details: [
-        "222E Oak Ridge Dr. Hagerstown MD 21740",
-        "Hagerstown, Maryland",
+        "222E Oak Ridge Dr. Suite 900 Hagerstown MD 21740",
       ],
     },
   ];

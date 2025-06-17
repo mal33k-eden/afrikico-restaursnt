@@ -132,7 +132,8 @@ const Footer = () => {
                     Location :
                   </p>
                   <p className="text-gray-400">
-                    222E Oak Ridge Dr. Hagerstown MD 21740
+                  222E Oak Ridge Dr. Suite 900
+                  Hagerstown MD 21740
                   </p>
                 </div>
               </div>
