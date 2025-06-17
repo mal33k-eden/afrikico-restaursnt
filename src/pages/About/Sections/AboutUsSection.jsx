@@ -4,12 +4,12 @@ export default function AboutUsSection() {
   const specialDishes = [
     "Chicken or  fish and  fries",
     "Waakye/ meat stew.",
-    "Jollof/ Chicken",
+    "Jollof/ chicken",
     "Bean/ plantain",
     "Chicken/ beef wrap",
     "Tuna and cheese toast",
     "Kenkey and fish.",
-    "Veggie Wrap",
+    "Veggie wrap",
   ];
 
   return (

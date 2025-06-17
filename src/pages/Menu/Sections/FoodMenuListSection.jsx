@@ -67,7 +67,7 @@ const FoodMenuListSection = () => {
       id: 10,
       name: "Eba and Egusi Soup",
       description:
-        "A Nigerian staple made from cassava flakes(Gari), stirred into hot water until firm. Enjoyed with hearty Egusi soup",
+        "A Nigerian staple made from cassava flakes(Gari), stirred into hot water until firm. Enjoyed with hearty Egusi soup.",
       image: "../images/food-img/img-17.jpg"
     },
   ];

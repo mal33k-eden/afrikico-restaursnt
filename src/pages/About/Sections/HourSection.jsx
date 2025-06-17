@@ -27,7 +27,7 @@ export default function HourSection() {
               </h2>
             </div>
             <p className="text-gray-600 leading-relaxed">
-            We're dedicated to providing outstanding quality in every aspect, from the freshness of our ingredients to the warmth of our service. <br /> We strive to create a welcoming atmosphere where every customer truly feels at home.
+            We're dedicated to providing outstanding quality in every aspect, from the freshness of our ingredients to the warmth of our service. <br /> <br />  We strive to create a welcoming atmosphere where every customer truly feels at home.
             </p>
           </div>
           <div className="lg:col-span-4 flex justify-center">
