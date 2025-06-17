@@ -65,9 +65,9 @@ const FoodMenuListSection = () => {
     },
     {
       id: 10,
-      name: "Eba",
+      name: "Eba and Egusi Soup",
       description:
-        "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
+        "A Nigerian staple made from cassava flakes(Gari), stirred into hot water until firm. Enjoyed with hearty Egusi soup",
       image: "../images/food-img/img-17.jpg"
     },
   ];
@@ -80,8 +80,8 @@ const FoodMenuListSection = () => {
       image: "../images/food-img/dummy.jpg", 
     },
     {
-      name: "Beef & Chicken Suya",
-      description: "Skewered and grilled to perfection, this traditional West African street food features tender beef and chicken infused with bold suya spices — a smoky, spicy blend that captures the heart of the culture.",
+      name: "Beef or Chicken Suya",
+      description: "A West African street food favorite. Tender beef or chicken, marinated in traditional suya spices and grilled to smoky perfection. Spicy and flavorful, capturing the heart of the culture.",
       image: "../images/food-img/dummy.jpg",
     },
     {
@@ -96,7 +96,7 @@ const FoodMenuListSection = () => {
     },
     {
       name: "Fried Turkey Tail",
-      description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors. Pair with yam for a hearty, satisfying dish.",
+      description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional flavors. Pair with yam for a hearty, satisfying dish.",
       image: "../images/food-img/dummy.jpg",
     },
     {
@@ -116,7 +116,7 @@ const FoodMenuListSection = () => {
     },
     {
       name: "Domedo (Fried Seasoned Pork)",
-      description: "Succulent chunks of pork marinated in aromatic spices, then fried until perfectly crispy on the outside and juicy inside. A rich, flavorful dish that's a celebration of bold seasoning and satisfying texture.",
+      description: "Seasoned pork, marinated in savory spices and fried until golden and crisp. A bold, satisfying dish with rich flavor in every bite.",
       image: "../images/food-img/img-13.jpg",
     },
     {

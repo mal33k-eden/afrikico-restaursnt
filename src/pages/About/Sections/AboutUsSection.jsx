@@ -2,9 +2,14 @@ import { Check } from "lucide-react";
 
 export default function AboutUsSection() {
   const specialDishes = [
-    "Waakye, served with stew, spicy sauce, gari, or fried plantain",
-    "Spinach Stew served solo or with your choice of protein",
-    "Fried Rice with vegetables and soy with your choice of protein",
+    "Chicken or  fish and  fries",
+    "Waakye/ meat stew.",
+    "Jollof/ Chicken",
+    "Bean/ plantain",
+    "Chicken/ beef wrap",
+    "Tuna and cheese toast",
+    "Kenkey and fish.",
+    "Veggie Wrap",
   ];
 
   return (
@@ -43,6 +48,7 @@ export default function AboutUsSection() {
                 Where Flavor Meets Culture, and Every Meal Tells a Story
               </p>
             </div>
+
             
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
@@ -70,16 +76,16 @@ export default function AboutUsSection() {
 
             <div className="space-y-4 pt-6 border-t border-gray-200">
               <h3 className="text-2xl font-bold text-gray-800">
-                Our Special Dish Of The Day
+              Our Lunch Special
               </h3>
               
-              <div className="space-y-3">
+                <div className="grid grid-cols-2 gap-4">
                 {specialDishes.map((dish, index) => (
-                  <div key={index} className="flex items-start space-x-3">
-                    <div className="flex-shrink-0 mt-1">
-                      <Check className="w-5 h-5 text-orange-500" />
+                  <div key={index} className="flex items-center space-x-3">
+                    <div className="flex-shrink-0">
+                      <Check className="w-5 h-5 text-primary-orange" />
                     </div>
-                    <span className="text-gray-600">{dish}</span>
+                    <span className="text-gray-700 font-medium">{dish}</span>
                   </div>
                 ))}
               </div>
