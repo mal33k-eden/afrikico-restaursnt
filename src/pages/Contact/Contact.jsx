@@ -11,7 +11,7 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Business Phone",
-      details: ["+ 240-707-8260"],
+      details: ["+1 (240)-707-8260", " +1 (240)-469-4354"],
     },
     {
       icon: MapPin,
