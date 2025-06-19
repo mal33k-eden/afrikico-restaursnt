@@ -2,13 +2,13 @@ import { Check } from "lucide-react";
 
 export default function AboutUsSection() {
   const specialDishes = [
-    "Chicken or  fish and  fries",
-    "Waakye/ meat stew.",
-    "Jollof/ chicken",
-    "Bean/ plantain",
+    "Chicken or fish & fries",
+    "Waakye & meat stew",
+    "Jollof & chicken",
+    "Beans & plantain",
     "Chicken/ beef wrap",
-    "Tuna and cheese toast",
-    "Kenkey and fish.",
+    "Tuna & cheese toast",
+    "Kenkey & fish.",
     "Veggie wrap",
   ];
 
