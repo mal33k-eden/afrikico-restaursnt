@@ -30,7 +30,7 @@ const FoodMenuListThree = () => {
       price: 24,
     },
     {
-      name: "Okro",
+      name: "Okro Stew",
       description:
         "A traditional okra stew with a slimy texture, spiced and served with sides like Banku or Rice for an authentic taste. Includes Goat meat, Shrimp and Crocker Fish.",
       image: "../images/food-img/dummy.jpg",
@@ -78,48 +78,48 @@ const FoodMenuListThree = () => {
       image: "../images/food-img/dummy.jpg",
       price: 30,
     },
-    {
-      name: "Pig Feet Stew",
-      description:
-        "Slow-cooked delicacy made with tender pig feet simmered in a deeply seasoned, tomato sauce Infused with herbs, spices, and a hint of heat.  Served with white rice.",
-      image: "../images/food-img/dummy.jpg",
-      price: 18,
-    },
-    {
-      name: "Beans Stew with Fried  Plantain( Red Red)",
-      description:
-        "Black Eyed peas cooked in palm  oil served with fish ( Salmon)  and fried plantain.",
-      image: "../images/food-img/dummy.jpg",
-      price: 18,
-    },
-    {
-      name: "Afrikico Oxtail Stew",
-      description:
-        "Oxtail simmered in a rich, savory tomato gravy with hearty vegetables and traditional island herbs. Served over fluffy white rice or rice and peas.",
-      image: "../images/food-img/dummy.jpg",
-      price: 28,
-    },
-    {
-      name: "Jerk Chicken",
-      description:
-        "Tender chicken marinated in authentic jerk seasoning, grilled to perfection. Served with your choice of rice and peas or white rice, and accompanied by a side of sweet plantains or seasonal vegetables.",
-      image: "../images/food-img/dummy.jpg",
-      price: 15,
-    },
-    {
-      name: "Fried Yam and Chofi",
-      description:
-        "Fried turkey tail and fired yam served with Shito and fresh tomatoes pepper.",
-      image: "../images/food-img/dummy.jpg",
-      price: 20,
-    },
-    {
-      name: "Light (peppered)Soup",
-      description:
-        "A bold and zesty soup crafted with a rich blend of ripe tomatoes, hot peppers, and savory spices. Simmered to perfection with aromatic herbs and your choice of tender Goat meat or Fish. Served with Fufu or  Plain white rice",
-      image: "../images/food-img/dummy.jpg",
-      price: 25,
-    },
+    // {
+    //   name: "Pig Feet Stew",
+    //   description:
+    //     "Slow-cooked delicacy made with tender pig feet simmered in a deeply seasoned, tomato sauce Infused with herbs, spices, and a hint of heat.  Served with white rice.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 18,
+    // },
+    // {
+    //   name: "Beans Stew with Fried  Plantain( Red Red)",
+    //   description:
+    //     "Black Eyed peas cooked in palm  oil served with fish ( Salmon)  and fried plantain.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 18,
+    // },
+    // {
+    //   name: "Afrikico Oxtail Stew",
+    //   description:
+    //     "Oxtail simmered in a rich, savory tomato gravy with hearty vegetables and traditional island herbs. Served over fluffy white rice or rice and peas.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 28,
+    // },
+    // {
+    //   name: "Jerk Chicken",
+    //   description:
+    //     "Tender chicken marinated in authentic jerk seasoning, grilled to perfection. Served with your choice of rice and peas or white rice, and accompanied by a side of sweet plantains or seasonal vegetables.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 15,
+    // },
+    // {
+    //   name: "Fried Yam and Chofi",
+    //   description:
+    //     "Fried turkey tail and fired yam served with Shito and fresh tomatoes pepper.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 20,
+    // },
+    // {
+    //   name: "Light (peppered)Soup",
+    //   description:
+    //     "A bold and zesty soup crafted with a rich blend of ripe tomatoes, hot peppers, and savory spices. Simmered to perfection with aromatic herbs and your choice of tender Goat meat or Fish. Served with Fufu or  Plain white rice",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 25,
+    // },
   ];
 
   return (

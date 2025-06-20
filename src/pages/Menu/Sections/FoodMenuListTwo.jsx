@@ -7,19 +7,19 @@ const FoodMenuListTwo = () => {
         name: "Fried Plantain",
         description: "Sweet, ripe plantains sliced and fried to golden perfection — a comforting favorite with just the right touch of crisp and caramelized sweetness.",
         image: "../images/food-img/dummy.jpg", 
-        price:10,
+        price:8.99,
       },
       {
         name: "Fried Yam",
         description: "Thick-cut yam pieces fried until crispy on the outside and tender inside. Perfect for dipping or enjoying on their own.",
         image: "../images/food-img/dummy.jpg",
-        price:8,
+        price:9.99,
       },
       {
         name: "French Fries",
         description: "Crispy, golden fries — classic, simple, and satisfying.",
         image: "../images/food-img/dummy.jpg",
-        price:5.99,
+        price:9.99,
       },
       {
         name: "Jollof Rice",
@@ -68,6 +68,24 @@ const FoodMenuListTwo = () => {
         description: "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
             image: "../images/food-img/img-17.jpg",
             price:5,
+        },
+        {
+            name: "Pounded Yam",
+            description: "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
+                image: "../images/food-img/img-17.jpg",
+                price:5,
+        },
+        {
+            name: "KONTOMIRE (Spinach Stew) with any side dish",
+            description: "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
+                image: "../images/food-img/img-17.jpg",
+                price:25,
+        },
+        {
+            name: "Beans Stew/ fried plantain(Red)",
+            description: "A rich bean Stew cooked with spices and served with fried plantain, offering a comfortcomfort comforting and filling",
+                image: "../images/food-img/img-17.jpg",
+                price:20,
         },
     ];
   

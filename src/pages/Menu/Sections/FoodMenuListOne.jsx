@@ -2,46 +2,46 @@ const FoodMenuListOne = () => {
   // Appetizer List
   const appetizerMenuItems = [
     {
-      name: "Spring Rolls (2 for)",
+      name: "Spring Rolls (4 for)",
       description: "Crispy, golden pastry rolls filled with a vibrant medley of seasoned vegetables. A light, flavorful bite to start your meal off right.",
       image: "../images/food-img/dummy.jpg", 
-      price:5,
+      price:10,
     },
     {
       name: "Beef or Chicken Suya",
       description: "Skewered and grilled to perfection, this traditional West African street food features tender beef and chicken infused with bold suya spices — a smoky, spicy blend that captures the heart of the culture.",
       image: "../images/food-img/dummy.jpg",
-      price:10,
+      price:10.99,
     },
     {
       name: "Meat & Fish Pie",
       description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced meat or fish. Each bite delivers the comfort and soul of home-cooked goodness.",
       image: "../images/food-img/dummy.jpg",
-      price:5,
+      price:6.99,
     },
     {
       name: "Fried Turkey Wing (Peppered)",
       description: "Juicy turkey wings marinated in a spicy pepper sauce, fried to a crispy finish. A fiery kick in every flavorful bite.",
       image: "../images/food-img/dummy.jpg", 
-      price:10,
+      price:9.99,
     },
     {
       name: "Fried Turkey Tail (Isi Ewu Style)",
       description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors.",
       image: "../images/food-img/dummy.jpg",
-      price:10,
+      price:9.99,
     },
     {
       name: "Peppered Gizzard",
       description: "Tender chicken gizzards simmered in a rich, spicy pepper marinade. Bursting with bold flavor and perfect for spice lovers.",
       image: "../images/food-img/dummy.jpg",
-      price:10,
+      price:9.99,
     },
     {
       name: "Fried Chicken Suya Wings",
       description: "Crispy chicken wings rubbed in signature suya spice blend — smoky, spicy, and utterly addictive.",
       image: "../images/food-img/dummy.jpg",
-      price:11,
+      price:11.99,
     },
     {
       name: "Kelewele (Fried Plantains)",
@@ -53,7 +53,7 @@ const FoodMenuListOne = () => {
       name: "Domedo (Fried Seasoned Pork)",
       description: "Succulent chunks of pork marinated in aromatic spices, then fried until perfectly crispy on the outside and juicy inside. A rich, flavorful dish that’s a celebration of bold seasoning and satisfying texture.",
       image: "../images/food-img/img-13.jpg",
-      price:10,
+      price:9.99,
     },
     {
       name: "Potato Balls",
@@ -65,19 +65,25 @@ const FoodMenuListOne = () => {
       name: "Chicken or Beef Wrap",
       description: "Tender, seasoned chicken or beef wrapped in warm flatbread with fresh vegetables and a touch of house sauce. A handheld meal that brings bold flavor and satisfying comfort in every bite.",
       image: "../images/food-img/dummy.jpg",
-      price:10,
+      price:9.99,
     },
     {
-      name: "Beef /Chicken/ Tofu Khebab (2 for)",
+      name: "Tofu/Beef /Chicken  Khebab",
       description: "Tender, marinate Beef ,Chicken or Tofu skewers grilled to perfection over an open flame, served with sautéed peppers and onions. Infused with bold spices and smoky flavor.",
       image: "../images/food-img/dummy.jpg",
-      price:10,
+      price:12.99,
     },
     {
-      name: "Jamaican Beef Pattie",
-      description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced meat . Each bite delivers the comfort and soul of home-cooked goodness.",
+      name: "Bofrot",
+      description: "",
       image: "../images/food-img/dummy.jpg",
-      price:4,
+      price:0,
+    },
+    {
+      name: "Spicy Goat (Hot)",
+      description: "",
+      image: "../images/food-img/dummy.jpg",
+      price:0,
     },
   ];
 

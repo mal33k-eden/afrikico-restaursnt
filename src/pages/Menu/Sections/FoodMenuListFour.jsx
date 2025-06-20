@@ -5,8 +5,8 @@ const FoodMenuListFour = () => {
       {
         name: "Mixed Salad - Half Size- $7.00 & Full Size -$10.00",
         description: "A vibrant medley of fresh lettuce, tomatoes, cucumbers, carrots, and onions, tossed with a light vinaigrette dressing. A crisp and colorful option to complement any meal.",
-            image: "../images/food-img/dummy.jpg", 
-            price:10,
+        image: "../images/food-img/dummy.jpg", 
+        price:10,
       },
       {
         name: "Ghana Salad",
@@ -25,7 +25,19 @@ const FoodMenuListFour = () => {
         description: "Hearty and wholesome Kale with dried cranberries, Brussels sprouts, pumpkin seeds with poppy seed dressing.",
         image: "../images/food-img/dummy.jpg", 
         price:10,
-      },
+        },
+        {
+        name: "House Salad (AFRIKICO SPECIAL SALAD)",
+        description: "",
+        image: "../images/food-img/dummy.jpg", 
+        price:0,
+        },
+        {
+        name: "Garden Salad",
+        description: "",
+        image: "../images/food-img/dummy.jpg", 
+        price:0,
+        },
     ];
   
     return (
