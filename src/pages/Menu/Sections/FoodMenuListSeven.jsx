@@ -96,7 +96,7 @@ const FoodMenuListSeven = () => {
                         {item.name}
                       </h3>
                       <span className="text-xl md:text-2xl font-bold text-gray-800 ml-4">
-                        $ {item.price}
+                        {/* $ {item.price} */}
                       </span>
                     </div>
                     <p className="text-gray-500 text-sm md:text-base leading-relaxed">

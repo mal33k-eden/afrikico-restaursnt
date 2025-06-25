@@ -2,10 +2,10 @@ const FoodMenuListOne = () => {
   // Appetizer List
   const appetizerMenuItems = [
     {
-      name: "Spring Rolls (4 for)",
+      name: "Spring Rolls (2) for",
       description: "Crispy, golden pastry rolls filled with a vibrant medley of seasoned vegetables. A light, flavorful bite to start your meal off right.",
       image: "../images/food-img/dummy.jpg", 
-      price:10,
+      price:5,
     },
     {
       name: "Beef or Chicken Suya",
@@ -65,7 +65,7 @@ const FoodMenuListOne = () => {
       name: "Chicken or Beef Wrap",
       description: "Tender, seasoned chicken or beef wrapped in warm flatbread with fresh vegetables and a touch of house sauce. A handheld meal that brings bold flavor and satisfying comfort in every bite.",
       image: "../images/food-img/dummy.jpg",
-      price:9.99,
+      price:"9.99 / $12.99",
     },
     {
       name: "Tofu/Beef /Chicken  Khebab",
@@ -74,16 +74,16 @@ const FoodMenuListOne = () => {
       price:12.99,
     },
     {
-      name: "Bofrot",
+      name: "Bofrot (2) for",
       description: "",
       image: "../images/food-img/dummy.jpg",
-      price:0,
+      price:5,
     },
     {
       name: "Spicy Goat (Hot)",
       description: "",
       image: "../images/food-img/dummy.jpg",
-      price:0,
+      price:15,
     },
   ];
 

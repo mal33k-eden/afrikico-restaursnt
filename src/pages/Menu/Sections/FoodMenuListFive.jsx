@@ -12,7 +12,7 @@ const FoodMenuListFive = () => {
         name: "Waakye",
         description: "A Ghanaian specialty of rice and beans cooked with millet leaves, served with meat stew, spicy sauce, and sides like gari, spaghetti.",
           image: "../images/food-img/img-12.jpg",
-          price:18.99,
+          price:10,
       },
       {
         name: "Fried Rice",

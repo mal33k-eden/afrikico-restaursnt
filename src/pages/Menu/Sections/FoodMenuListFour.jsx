@@ -3,7 +3,7 @@ const FoodMenuListFour = () => {
     // salads
     const saladsMenuItems = [
       {
-        name: "Mixed Salad - Half Size- $7.00 & Full Size -$10.00",
+        name: "Mixed Salad",
         description: "A vibrant medley of fresh lettuce, tomatoes, cucumbers, carrots, and onions, tossed with a light vinaigrette dressing. A crisp and colorful option to complement any meal.",
         image: "../images/food-img/dummy.jpg", 
         price:10,
@@ -36,7 +36,7 @@ const FoodMenuListFour = () => {
         name: "Garden Salad",
         description: "",
         image: "../images/food-img/dummy.jpg", 
-        price:0,
+        price:8,
         },
     ];
   

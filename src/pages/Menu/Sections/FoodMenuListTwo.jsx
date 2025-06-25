@@ -7,19 +7,19 @@ const FoodMenuListTwo = () => {
         name: "Fried Plantain",
         description: "Sweet, ripe plantains sliced and fried to golden perfection — a comforting favorite with just the right touch of crisp and caramelized sweetness.",
         image: "../images/food-img/dummy.jpg", 
-        price:8.99,
+        price:10,
       },
       {
         name: "Fried Yam",
         description: "Thick-cut yam pieces fried until crispy on the outside and tender inside. Perfect for dipping or enjoying on their own.",
         image: "../images/food-img/dummy.jpg",
-        price:9.99,
+        price:10,
       },
       {
         name: "French Fries",
         description: "Crispy, golden fries — classic, simple, and satisfying.",
         image: "../images/food-img/dummy.jpg",
-        price:9.99,
+        price:"6/$10",
       },
       {
         name: "Jollof Rice",
@@ -43,7 +43,7 @@ const FoodMenuListTwo = () => {
           name: "Banku",
           description: "A fermented mix of corn and cassava dough, cooked into a smooth, stretchy texture. Typically served with soup, stew, or grilled protein.",
           image: "../images/food-img/dummy.jpg",
-          price:4,
+          price:5,
       },
       {
         name: "Omo Tuo",
@@ -55,13 +55,13 @@ const FoodMenuListTwo = () => {
         name: "Waakye",
         description: "A popular Ghanaian dish made from rice and black-eyed beans, often cooked with millet leaves for its signature color and aroma.",
           image: "../images/food-img/img-12.jpg",
-          price:7,
+          price:10,
       },
       {
         name: "Fufu",
         description: "A soft, dough-like staple made from cassava and plantains, pounded to a stretchy texture. Best enjoyed with thick, flavorful soups.",
           image: "../images/food-img/dummy.jpg",
-          price:5,
+          price:7,
         },
         {
         name: "Eba",
