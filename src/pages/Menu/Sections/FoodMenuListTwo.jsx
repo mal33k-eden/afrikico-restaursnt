@@ -54,7 +54,7 @@ const FoodMenuListTwo = () => {
       {
         name: "Waakye",
         description: "A popular Ghanaian dish made from rice and black-eyed beans, often cooked with millet leaves for its signature color and aroma.",
-          image: "../images/food-img/img-12.jpg",
+          image: "../images/food-img/dummy.jpg",
           price:10,
       },
       {
@@ -66,13 +66,13 @@ const FoodMenuListTwo = () => {
         {
         name: "Eba",
         description: "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
-            image: "../images/food-img/img-17.jpg",
+            image: "../images/food-img/dummy.jpg",
             price:5,
         },
         {
             name: "Pounded Yam",
             description: "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
-                image: "../images/food-img/img-17.jpg",
+                image: "../images/food-img/dummy.jpg",
                 price:5,
         },
         {
@@ -84,7 +84,7 @@ const FoodMenuListTwo = () => {
         {
             name: "Beans Stew/ fried plantain(Red)",
             description: "A rich bean Stew cooked with spices and served with fried plantain, offering a comfortcomfort comforting and filling",
-                image: "../images/food-img/img-17.jpg",
+                image: "../images/food-img/dummy.jpg",
                 price:20,
         },
     ];

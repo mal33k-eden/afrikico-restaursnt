@@ -7,6 +7,8 @@ import FoodMenuListFour from "./Sections/FoodMenuListFour";
 import FoodMenuListFive from "./Sections/FoodMenuListFive";
 import FoodMenuListSix from "./Sections/FoodMenuListSix";
 import FoodMenuListSeven from "./Sections/FoodMenuListSeven";
+import FoodMenuListEight from "./Sections/FoodMenuListEight";
+import FoodMenuListNine from "./Sections/FoodMenuListNine";
 
 
 const Menu = () => {
@@ -19,6 +21,8 @@ const Menu = () => {
       <FoodMenuListFour />
       <FoodMenuListFive />
       <FoodMenuListSix />
+      <FoodMenuListEight />
+      <FoodMenuListNine/>
       <FoodMenuListSeven/>
       <FoodGallerySection />
     </>

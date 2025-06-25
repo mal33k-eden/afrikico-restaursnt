@@ -5,13 +5,13 @@ const FoodMenuListFive = () => {
       {
         name: "Jollof",
         description: "A flavorful West African rice dish cooked with tomatoes, peppers, and spices, offering a rich and spicy taste ( Chicken/ Lamb/ Fish)",
-        image: "../images/food-img/img-7.jpg",
+        image: "../images/food-img/dummy.jpg",
         price:18.89,
       },
       {
         name: "Waakye",
         description: "A Ghanaian specialty of rice and beans cooked with millet leaves, served with meat stew, spicy sauce, and sides like gari, spaghetti.",
-          image: "../images/food-img/img-12.jpg",
+          image: "../images/food-img/dummy.jpg",
           price:10,
       },
       {

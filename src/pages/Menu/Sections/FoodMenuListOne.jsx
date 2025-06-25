@@ -26,7 +26,7 @@ const FoodMenuListOne = () => {
       price:9.99,
     },
     {
-      name: "Fried Turkey Tail (Isi Ewu Style)",
+      name: "Fried Turkey Tail",
       description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors.",
       image: "../images/food-img/dummy.jpg",
       price:9.99,
