@@ -24,7 +24,7 @@ const FoodMenuListTwo = () => {
       {
         name: "Jollof Rice",
         description: "A beloved West African dish made with fragrant rice simmered in a rich tomato-based sauce with spices. Flavorful, vibrant, and unforgettable.",
-        image: "../images/food-img/img-7.jpg", 
+        image: "../images/food-img/img-5.jpg", 
         price:8,
       },
       {

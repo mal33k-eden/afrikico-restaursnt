@@ -52,7 +52,7 @@ const FoodMenuListOne = () => {
     {
       name: "Domedo (Fried Seasoned Pork)",
       description: "Succulent chunks of pork marinated in aromatic spices, then fried until perfectly crispy on the outside and juicy inside. A rich, flavorful dish that’s a celebration of bold seasoning and satisfying texture.",
-      image: "../images/food-img/img-13.jpg",
+      image: "../images/food-img/dummy.jpg",
       price:9.99,
     },
     {

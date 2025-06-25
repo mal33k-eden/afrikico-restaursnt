@@ -79,7 +79,7 @@ const FoodMenuListSeven = () => {
               </div>
             </div>
   
-            <div className="grid md:grid-cols-2 gap-x-16 gap-y-12">
+            <div className="grid md:grid-cols-3 gap-x-16 gap-y-12">
               {menuItems.map((item) => (
                 <div key={item.id} className="flex items-start space-x-4">
                   <div className="flex-shrink-0">

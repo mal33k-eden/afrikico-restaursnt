@@ -13,7 +13,7 @@ const FoodMenuListNine = () => {
           id: 2,
           name: "Vegetarian Italian Chopped Salad",
           description:
-            "Chopped romaine radicchio, red onion, celery, and cherry tomatoes.",
+            "Chopped romaine lettuce, radicchio, red onion, celery, and cherry tomatoes.",
           image: "../images/food-img/dummy.jpg",
           price: 4,
         },
@@ -29,7 +29,7 @@ const FoodMenuListNine = () => {
           id: 4,
           name: "Tofu Sandwich",
           description:
-            "With BBQ tofu (BBQ sauce) / regular baked/ fries tofu, regular hamburger, vegan mayonnaise / mayonnaise, cabbage salad or vegan coleslaw.",
+            "With BBQ tofu (BBQ sauce) / regular baked/ fried tofu, regular hamburger, vegan mayonnaise / mayonnaise, cabbage salad or vegan coleslaw.",
           image: "../images/food-img/dummy.jpg",
           price: 4,
         },
@@ -50,7 +50,7 @@ const FoodMenuListNine = () => {
             <div className="text-center mb-16">
               <div className="inline-block relative mt-4">
                 <div className="bg-primary-orange text-white px-6 py-3 text-sm font-bold tracking-wider uppercase relative">
-                Vegan Dishs
+                Vegan Dishes
                 </div>
               </div>
             </div>

@@ -28,7 +28,7 @@ const FoodMenuListFour = () => {
         },
         {
         name: "House Salad (AFRIKICO SPECIAL SALAD)",
-        description: "",
+        description: "Afrikico salad comes with mixed protein and egg",
         image: "../images/food-img/dummy.jpg", 
         price:0,
         },
