@@ -69,7 +69,7 @@ const FoodMenuListOne = () => {
     },
     {
       name: "Tofu/Beef /Chicken  Khebab",
-      description: "Tender, marinate Beef ,Chicken or Tofu skewers grilled to perfection over an open flame, served with sautéed peppers and onions. Infused with bold spices and smoky flavor.",
+      description: "Tender, marinate beef, chicken or tofu skewers grilled to perfection over an open flame, served with sautéed peppers and onions. Infused with bold spices and smoky flavor.",
       image: "../images/food-img/dummy.jpg",
       price:12.99,
     },
@@ -81,7 +81,7 @@ const FoodMenuListOne = () => {
     },
     {
       name: "Spicy Goat (Hot)",
-      description: "Spicy hot grilled/fried Goat with peppers, onions, sauce and green peppers.",
+      description: "Spicy hot grilled/fried goat with peppers, onions, sauce and green peppers.",
       image: "../images/food-img/dummy.jpg",
       price:15,
     },
