@@ -34,7 +34,7 @@ const FoodMenuListFour = () => {
         },
         {
         name: "Garden Salad",
-        description: "greens(lettuce /spinach/ romaine, vegetables, cheese, eggs and mayonnaise",
+        description: "Greens(lettuce /spinach/ romaine, vegetables, cheese, eggs and mayonnaise",
         image: "../images/food-img/dummy.jpg", 
         price:8,
         },

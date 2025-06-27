@@ -28,11 +28,16 @@ const FoodMenuListFive = () => {
       },
       {
         name: "Wrap of the Day (Chicken/Veggie/beef option)",
-        description: "Chicken/Veggie option/Beef Option",
+        description: "Chicken/veggie option/beef option",
           image: "../images/food-img/dummy.jpg",
           price:15.99,
       },
-      
+      {
+        name: "Beef/Chicken Burger with French Fries", 
+        description: " Comes with beef/chicken, tomatoes, onions, lettuce, pickles, cheese, mayonnaise, ketchup and fries.",
+        image: "../images/food-img/dummy.jpg",
+        price: 9.99,
+      }
     ];
   
     return (

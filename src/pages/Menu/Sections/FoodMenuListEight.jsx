@@ -1,13 +1,13 @@
 const FoodMenuListEight = () => {
     // kids menu
     const menuItems = [
-        {
-          id: 1,
-          name: "Beef/Chicken Burger with French Fries", 
-          description: " Comes with Beef/Chicken, tomatoes, onions, lettuce, pickles, cheese, mayonnaise, ketchup and fries.",
-          image: "../images/food-img/dummy.jpg",
-          price: 9.99,
-        },
+        // {
+          // id: 1,
+          // name: "Beef/Chicken Burger with French Fries", 
+          // description: " Comes with Beef/Chicken, tomatoes, onions, lettuce, pickles, cheese, mayonnaise, ketchup and fries.",
+          // image: "../images/food-img/dummy.jpg",
+          // price: 9.99,
+        // },
         {
           id: 2,
           name: "French Fries with Fried Chicken", 
