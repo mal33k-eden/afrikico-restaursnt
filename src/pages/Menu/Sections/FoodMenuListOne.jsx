@@ -69,7 +69,7 @@ const FoodMenuListOne = () => {
     },
     {
       name: "Tofu/Beef /Chicken  Khebab",
-      description: "Tender, marinate beef, chicken or tofu skewers grilled to perfection over an open flame, served with sautéed peppers and onions. Infused with bold spices and smoky flavor.",
+      description: "Tender, marinated beef, chicken or tofu skewers grilled to perfection over an open flame, served with sautéed peppers and onions. Infused with bold spices and smoky flavor.",
       image: "../images/food-img/dummy.jpg",
       price:12.99,
     },
