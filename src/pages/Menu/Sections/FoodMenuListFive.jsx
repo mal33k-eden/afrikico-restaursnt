@@ -28,7 +28,7 @@ const FoodMenuListFive = () => {
       },
       {
         name: "Wrap of the Day (Chicken/Veggie/beef option)",
-        description: "",
+        description: "Chicken/Veggie option/Beef Option",
           image: "../images/food-img/dummy.jpg",
           price:15.99,
       },

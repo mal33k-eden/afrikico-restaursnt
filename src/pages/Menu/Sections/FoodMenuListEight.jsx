@@ -3,8 +3,8 @@ const FoodMenuListEight = () => {
     const menuItems = [
         {
           id: 1,
-          name: "Beef/Chicken Burger with Fries", 
-          description: "",
+          name: "Beef/Chicken Burger with French Fries", 
+          description: " Comes with Beef/Chicken, tomatoes, onions, lettuce, pickles, cheese, mayonnaise, ketchup and fries.",
           image: "../images/food-img/dummy.jpg",
           price: 9.99,
         },
@@ -59,7 +59,7 @@ const FoodMenuListEight = () => {
                       <h3 className="text-xl md:text-2xl font-bold text-gray-800">
                         {item.name}
                       </h3>
-                      <span className="text-xl md:text-2xl font-bold text-gray-800 ml-1">
+                      <span className="text-xl md:text-2xl font-bold text-gray-800 flex-shrink-0">
                         $ {item.price}
                       </span>
                     </div>

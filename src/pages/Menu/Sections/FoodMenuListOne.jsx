@@ -75,13 +75,13 @@ const FoodMenuListOne = () => {
     },
     {
       name: "Bofrot (2) for",
-      description: "",
+      description: "Ghanaian fried, crunchy puff puff treat made with flour, sugar, milk and other ingredients molded into round balls",
       image: "../images/food-img/dummy.jpg",
       price:5,
     },
     {
       name: "Spicy Goat (Hot)",
-      description: "",
+      description: "Spicy hot Grilled/Fried Goat with peppers, onions, sauce and green peppers.",
       image: "../images/food-img/dummy.jpg",
       price:15,
     },
