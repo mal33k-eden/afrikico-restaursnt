@@ -34,7 +34,7 @@ const FoodMenuListFive = () => {
       },
       {
         name: "Beef/Chicken Burger with French Fries", 
-        description: " Comes with beef/chicken, tomatoes, onions, lettuce, pickles, cheese, mayonnaise, ketchup and fries.",
+        description: " Comes with beef/chicken, tomatoes, onions, lettuce, mayonnaise, ketchup and fries.",
         image: "../images/food-img/dummy.jpg",
         price: 9.99,
       }

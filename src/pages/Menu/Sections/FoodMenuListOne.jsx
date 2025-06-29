@@ -80,7 +80,7 @@ const FoodMenuListOne = () => {
       price:5,
     },
     {
-      name: "Spicy Goat (Hot)",
+      name: "Spicy Goat",
       description: "Spicy hot grilled/fried goat with peppers, onions, sauce and green peppers.",
       image: "../images/food-img/dummy.jpg",
       price:15,

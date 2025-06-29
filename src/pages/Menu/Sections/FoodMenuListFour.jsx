@@ -32,12 +32,12 @@ const FoodMenuListFour = () => {
         image: "../images/food-img/dummy.jpg", 
         price:15,
         },
-        {
-        name: "Garden Salad",
-        description: "Greens(lettuce /spinach/ romaine, vegetables, cheese, eggs and mayonnaise",
-        image: "../images/food-img/dummy.jpg", 
-        price:8,
-        },
+        // {
+        // name: "Garden Salad",
+        // description: "Greens(lettuce /spinach/ romaine, vegetables, cheese, eggs and mayonnaise",
+        // image: "../images/food-img/dummy.jpg", 
+        // price:8,
+        // },
     ];
   
     return (

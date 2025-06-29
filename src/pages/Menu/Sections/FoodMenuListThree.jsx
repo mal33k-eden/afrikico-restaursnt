@@ -78,6 +78,13 @@ const FoodMenuListThree = () => {
       image: "../images/food-img/dummy.jpg",
       price: 30,
     },
+    {
+      name: "Pig Feet Stew and Rice",
+      description:
+        "Tender pig feet simmered in a rich, seasoned stew and served over fluffy white rice.",
+      image: "../images/food-img/dummy.jpg",
+      price: 22,
+    },
     // {
     //   name: "Pig Feet Stew",
     //   description:
