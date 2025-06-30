@@ -2,18 +2,18 @@ const FoodMenuListThree = () => {
   // entrees
   const entreesMenuItems = [
     {
-      name: "Jollof – Combo-  $20.00    Platter( includes plantains)",
+      name: "Jollof – Combo Platter",
       description:
         "A flavorful West African rice dish cooked with tomatoes, peppers, and spices, offering a rich and spicy taste ( Chicken/ Lamb/ Fish).",
       image: "../images/food-img/img-7.jpg",
-      price: 25,
+      price: 20.99 ,
     },
     {
-      name: "Waakye – Combo $22.00 Platter( includes plantains)",
+      name: "Waakye– Combo Platter",
       description:
         "A Ghanaian specialty of rice and beans cooked with millet leaves, served with meat stew, spicy sauce, and sides like gari , spaghetti.",
       image: "../images/food-img/img-12.jpg",
-      price: 25,
+      price: 22.99,
     },
     {
       name: "Fried Rice",
@@ -27,14 +27,20 @@ const FoodMenuListThree = () => {
       description:
         "A savory stir-fried rice dish with vegetables,  egg, shrimp and chicken  soy sauce, and a choice of protein, delivering a satisfying and aromatic experience.",
       image: "../images/food-img/dummy.jpg",
-      price: 24,
+      price: 23,
+    },
+    {
+      name: "Fufu & Goat/Fish Light Soup",
+      description: "",
+      image: "../images/food-img/dummy.jpg",
+      price: 19.99,
     },
     {
       name: "Okro Stew",
       description:
         "A traditional okra stew with a slimy texture, spiced and served with sides like Banku or Rice for an authentic taste. Includes Goat meat, Shrimp and Crocker Fish.",
       image: "../images/food-img/dummy.jpg",
-      price: 24,
+      price: 22,
     },
     {
       name: "Peanut Soup",
@@ -44,6 +50,13 @@ const FoodMenuListThree = () => {
       price: 22,
     },
     {
+      name: "Egusi Soup",
+      description:
+          "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice balls for a comforting meal. Includes Chicken.",
+      image: "../images/food-img/dummy.jpg",
+      price: 19.99,
+    },
+    {
       name: "Spinach Stew",
       description:
         "A nutritious stew made with fresh spinach, cooked with tomatoes and spices, ideal as a side or with a protein.  Served with White Rice/ Yam/ Plantain / Eba. Includes  Fish/ Goat/ Egg",
@@ -51,7 +64,7 @@ const FoodMenuListThree = () => {
       price: 22,
     },
     {
-      name: "Tilapia ",
+      name: "Grilled Tilapia",
       description:
         "A whole grilled or fried tilapia fish, seasoned with a spicy pepper sauce, offering a flavorful seafood experience. Served with Banku/ Acheke / Kenkey.",
       image: "../images/food-img/img-2.jpg",
@@ -72,11 +85,17 @@ const FoodMenuListThree = () => {
       price: 80,
     },
     {
-      name: "Grilled/ Fried Fish( Crocker-$25.00, Red Snapper-$25, Mackerel-$22, Salmon $30.00)",
+      name: "Fried Yam & Chofi",
+      description: "",
+      image: "../images/food-img/dummy.jpg",
+      price: 21,
+    },
+    {
+      name: "Grilled/ Fried Fish (Crocker, Red Snapper, Mackerel, Salmon)",
       description:
         "Choice of grilled or crispy fried whole fish, perfectly seasoned and cooked to golden perfection. Served with your choice of Attiéké (cassava couscous), Gari foto, Kenkey, or crispy French fries, and accompanied by a side of spicy pepper sauce or savory tomato stew for a bold West African kick.",
       image: "../images/food-img/dummy.jpg",
-      price: 30,
+      price: "22.00 - $30",
     },
     {
       name: "Pig Feet Stew and Rice",
@@ -84,6 +103,36 @@ const FoodMenuListThree = () => {
         "Tender pig feet simmered in a rich, seasoned stew and served over fluffy white rice.",
       image: "../images/food-img/dummy.jpg",
       price: 22,
+    },
+    {
+      name: "KONTOMIRE (Spinach Stew) with any side dish",
+      description: " ",
+      image: "../images/food-img/img-17.jpg",
+      price:25,
+    },
+    {
+      name: "Beans Stew (Red Red)",
+      description: "A rich bean Stew cooked with spices and served with fried plantain, offering a comfortcomfort comforting and filling",
+      image: "../images/food-img/dummy.jpg",
+      price:20,
+    },
+    {
+      name: "Curry Chicken",
+      description: " ",
+      image: "../images/food-img/dummy.jpg",
+      price:22,
+    },
+    {
+      name: "Curry Goat",
+      description: " ",
+      image: "../images/food-img/dummy.jpg",
+      price:23.99,
+    },
+    {
+      name: "Oxtail",
+      description: " ",
+      image: "../images/food-img/dummy.jpg",
+      price:28.99,
     },
     // {
     //   name: "Pig Feet Stew",

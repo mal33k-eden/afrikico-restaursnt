@@ -6,13 +6,13 @@ const FoodMenuListFive = () => {
         name: "Jollof",
         description: "A flavorful West African rice dish cooked with tomatoes, peppers, and spices, offering a rich and spicy taste ( Chicken/ Lamb/ Fish)",
         image: "../images/food-img/dummy.jpg",
-        price:18.89,
+        price:18.99,
       },
       {
         name: "Waakye",
         description: "A Ghanaian specialty of rice and beans cooked with millet leaves, served with meat stew, spicy sauce, and sides like gari, spaghetti.",
           image: "../images/food-img/dummy.jpg",
-          price:10,
+          price:21,
       },
       {
         name: "Fried Rice",
@@ -27,7 +27,7 @@ const FoodMenuListFive = () => {
           price:20,
       },
       {
-        name: "Wrap of the Day (Chicken/Veggie/beef option)",
+        name: "Wrap of the Day with French Fries)",
         description: "Chicken/veggie option/beef option",
           image: "../images/food-img/dummy.jpg",
           price:15.99,
@@ -37,6 +37,18 @@ const FoodMenuListFive = () => {
         description: " Comes with beef/chicken, tomatoes, onions, lettuce, mayonnaise, ketchup and fries.",
         image: "../images/food-img/dummy.jpg",
         price: 9.99,
+      },
+      {
+        name: "Beef/Chicken Steak & Cheese (wrap)",
+        description: "",
+        image: "../images/food-img/dummy.jpg",
+        price: 10.99,
+      },
+      {
+        name: "Vegan Steak & Cheese (wrap)",
+        description: "",
+        image: "../images/food-img/dummy.jpg",
+        price: 12.99,
       }
     ];
   

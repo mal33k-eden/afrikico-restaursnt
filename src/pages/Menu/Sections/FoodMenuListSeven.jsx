@@ -19,11 +19,115 @@ const FoodMenuListSeven = () => {
       },
       {
         id: 3,
-        name: "Coke",
+        name: "Coca-Cola",
         description:
           "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
           image: "../images/food-img/dummy.jpg",
           price:4,
+      },
+      {
+        id: 3,
+        name: "Coca-Cola ( Cherry)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Coca-Cola ( Zero Sugar)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Fruit Punch)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Lemonade)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Pink Lemonade)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Cranberry Grape)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Apple Juice)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Orange Juice)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Barq’s -Root Beer)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Minute Maid (Ginger Ale)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Topo Chico( Lime)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Vimto",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
+      },
+      {
+        id: 3,
+        name: "Malta Guinness( Non-Alcoholic Malt Drink)",
+        description:
+            "A classic Coca-Cola, served ice-cold for a bubbly and refreshing experience.",
+        image: "../images/food-img/dummy.jpg",
+        price:4,
       },
       {
         id: 4,
@@ -48,14 +152,6 @@ const FoodMenuListSeven = () => {
           "A crisp and lemon-lime flavored Sprite, perfect for a light and bubbly refreshment.",
           image: "../images/food-img/dummy.jpg",
           price:4,
-      },
-      {
-        id: 7,
-        name: "Malt",
-        description:
-          "A non-alcoholic malt beverage with a rich, slightly sweet flavor, popular in African cuisine for its unique taste.",
-          image: "../images/food-img/dummy.jpg",
-          price:4.5,
       },
       {
         id: 9,

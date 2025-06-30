@@ -13,14 +13,14 @@ const FoodMenuListEight = () => {
           name: "French Fries with Fried Chicken", 
           description: "",
           image: "../images/food-img/dummy.jpg",
-          price: 12,
+          price: 9.99,
         },
         {
           id: 3,
           name: "Spaghetti with Meatballs", 
           description: "",
           image: "../images/food-img/dummy.jpg",
-          price: 12,
+          price: 9.99,
         },
         {
           id: 4,

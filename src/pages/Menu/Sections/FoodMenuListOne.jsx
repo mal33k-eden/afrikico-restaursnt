@@ -14,10 +14,16 @@ const FoodMenuListOne = () => {
       price:10.99,
     },
     {
-      name: "Meat & Fish Pie",
-      description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced meat or fish. Each bite delivers the comfort and soul of home-cooked goodness.",
+      name: "Fish Pie",
+      description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced fish. Each bite delivers the comfort and soul of home-cooked goodness.",
       image: "../images/food-img/dummy.jpg",
-      price:6.99,
+      price:4.99,
+    },
+    {
+      name: "Meat Pie",
+      description: "Flaky, buttery pastry stuffed with a savory mix of seasoned minced meat. Each bite delivers the comfort and soul of home-cooked goodness.",
+      image: "../images/food-img/dummy.jpg",
+      price:5.99,
     },
     {
       name: "Fried Turkey Wing (Peppered)",
@@ -27,7 +33,7 @@ const FoodMenuListOne = () => {
     },
     {
       name: "Fried Turkey Tail",
-      description: "Crispy fried turkey tail tossed in a bold, spicy sauce inspired by traditional Isi Ewu flavors.",
+      description: "Crispy fried turkey tail tossed in a bold, spicy sauce.",
       image: "../images/food-img/dummy.jpg",
       price:9.99,
     },
@@ -44,7 +50,7 @@ const FoodMenuListOne = () => {
       price:11.99,
     },
     {
-      name: "Kelewele (Fried Plantains)",
+      name: "Kelewele",
       description: "Golden fried plantain cubes tossed with ginger, chili, and fragrant West African spices. Sweet, spicy, and absolutely irresistible.",
       image: "../images/food-img/dummy.jpg",
       price:8,
@@ -56,7 +62,7 @@ const FoodMenuListOne = () => {
       price:9.99,
     },
     {
-      name: "Potato Balls",
+      name: "Potato Balls (2) for",
       description: "Crispy on the outside, soft and savory inside — these golden potato balls are seasoned and fried to perfection. A deliciously comforting snack or side with a hint of spice in every bite.",
       image: "../images/food-img/dummy.jpg",
       price:10,
@@ -71,7 +77,7 @@ const FoodMenuListOne = () => {
       name: "Tofu/Beef /Chicken  Khebab",
       description: "Tender, marinated beef, chicken or tofu skewers grilled to perfection over an open flame, served with sautéed peppers and onions. Infused with bold spices and smoky flavor.",
       image: "../images/food-img/dummy.jpg",
-      price:12.99,
+      price:"9.99 / $12.99",
     },
     {
       name: "Bofrot (2) for",
@@ -84,6 +90,12 @@ const FoodMenuListOne = () => {
       description: "Spicy hot grilled/fried goat with peppers, onions, sauce and green peppers.",
       image: "../images/food-img/dummy.jpg",
       price:15,
+    },
+    {
+      name: "Whole Fired Chicken (Local)",
+      description: "Steamed and fired chicken (local) tossed in hot chilli pepper",
+      image: "../images/food-img/dummy.jpg",
+      price:18.99,
     },
   ];
 

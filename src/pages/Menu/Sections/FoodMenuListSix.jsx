@@ -3,9 +3,15 @@ const FoodMenuListSix = () => {
     // Weekend specials
     const specialsMenuItems = [
       {
+        name: "Fufu with Goat Light Soup",
+        description: "",
+            image: "../images/food-img/dummy.jpg",
+        price:25,
+      },
+      {
         name: "Palm Soup with Rice Balls",
         description: "A rich, earthy soup made from palm nut extract, slow-cooked with meats and spices — served with soft, smooth rice balls to soak up every drop.",
-            image: "../images/food-img/img-14.jpg",
+        image: "../images/food-img/img-14.jpg",
         price:25,
       },
       {
@@ -21,14 +27,14 @@ const FoodMenuListSix = () => {
           price:25,
       },
       {
-        name: "Banku with Crabs",
+        name: "Banku with Tilapia (pre-order)",
         description: "Smooth, tangy banku paired with flavorful crabs in a rich, peppery sauce — a dish full of bold coastal flair.",
           image: "../images/food-img/dummy.jpg", 
           price:28,
       },
       {
-        name: "Aprepesah",
-        description: "A traditional Ghanaian delicacy made from mashed ripe plantains and often served with garden egg stew — wholesome, earthy, and deeply satisfying. Served with Crabs/ Fish/ Chicken.",
+        name: "Aprepesah (pre-order)",
+        description: "A traditional Ghanaian delicacy made from roasted corn powder cooked in palm nut soup",
           image: "../images/food-img/dummy.jpg",
           price:25,
       },

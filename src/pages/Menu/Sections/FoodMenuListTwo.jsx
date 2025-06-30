@@ -25,7 +25,7 @@ const FoodMenuListTwo = () => {
         name: "Jollof Rice",
         description: "A beloved West African dish made with fragrant rice simmered in a rich tomato-based sauce with spices. Flavorful, vibrant, and unforgettable.",
         image: "../images/food-img/img-5.jpg", 
-        price:8,
+        price:10,
       },
       {
         name: "Kenkey",
@@ -73,19 +73,7 @@ const FoodMenuListTwo = () => {
             name: "Pounded Yam",
             description: "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
                 image: "../images/food-img/dummy.jpg",
-                price:5,
-        },
-        {
-            name: "KONTOMIRE (Spinach Stew) with any side dish",
-            description: "A Nigerian staple made from Gari (cassava flakes), stirred into hot water until firm. Enjoyed with soups like egusi, ogbono, or okra.",
-                image: "../images/food-img/img-17.jpg",
-                price:25,
-        },
-        {
-            name: "Beans Stew/ fried plantain(Red)",
-            description: "A rich bean Stew cooked with spices and served with fried plantain, offering a comfortcomfort comforting and filling",
-                image: "../images/food-img/dummy.jpg",
-                price:20,
+                price:6,
         },
     ];
   
@@ -96,7 +84,7 @@ const FoodMenuListTwo = () => {
             <div className="text-center mb-12">
               <div className="inline-block relative mb-4 ">
                 <div className="bg-primary-orange text-white px-6 py-3 text-sm font-bold tracking-wider uppercase relative">
-                Side Orders
+                Side Orders (Only)
                 </div>
               </div>
               {/* <h2 className="text-2xl md:text-3xl lg:text-3xl font-bold text-gray-800 leading-tight">
