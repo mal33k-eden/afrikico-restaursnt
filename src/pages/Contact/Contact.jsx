@@ -11,14 +11,12 @@ const Contact = () => {
     {
       icon: Phone,
       title: "Business Phone",
-      details: ["+1 (240)-707-8260", " +1 (240)-469-4354"],
+      details: ["+1 (240)-347-4180", " +1 (240)-469-4354"],
     },
     {
       icon: MapPin,
       title: "Our Address",
-      details: [
-        "222E Oak Ridge Dr. Suite 900 Hagerstown MD 21740",
-      ],
+      details: ["222E Oak Ridge Dr. Suite 900 Hagerstown MD 21740"],
     },
   ];
   return (

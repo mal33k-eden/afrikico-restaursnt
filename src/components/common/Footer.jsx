@@ -132,8 +132,7 @@ const Footer = () => {
                     Location :
                   </p>
                   <p className="text-gray-400">
-                  222E Oak Ridge Dr. Suite 900
-                  Hagerstown MD 21740
+                    222E Oak Ridge Dr. Suite 900 Hagerstown MD 21740
                   </p>
                 </div>
               </div>
@@ -164,10 +163,11 @@ const Footer = () => {
                     Phone Number :
                   </p>
                   <Link
-                    href="tel: +1 (240)-707-8260"
+                    href="tel:  +1 (240)-347-4180"
                     className="text-gray-400 hover:text-[#AD571E] transition-colors"
                   >
-                    +1 (240)-707-8260 <br />
+                    +1 (240)-347-4180
+                    <br />
                   </Link>
                   <Link
                     href="tel:+1 (240)-469-4354"
