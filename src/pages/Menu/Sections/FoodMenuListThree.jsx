@@ -2,73 +2,93 @@ const FoodMenuListThree = () => {
   // entrees
   const entreesMenuItems = [
     {
-      name: "Jollof – Combo Platter",
+      name: "Jollof-Combo / Platter (Includes Plantains)",
       description:
-        "A flavorful West African rice dish cooked with tomatoes, peppers, and spices, offering a rich and spicy taste ( Chicken/ Lamb/ Fish).",
+        "A flavorful West African rice dish cooked with tomatoes, peppers, and spices, offering a rich and spicy taste (chicken/lamb/fish).",
       image: "../images/food-img/img-7.jpg",
-      price: 20.99 ,
+      price: "20 / $25",
     },
     {
-      name: "Waakye– Combo Platter",
+      name: "Waakye-Combo / Platter (Includes Plantains)",
       description:
-        "A Ghanaian specialty of rice and beans cooked with millet leaves, served with meat stew, spicy sauce, and sides like gari , spaghetti.",
+        "A Ghanaian specialty of rice and beans cooked with millet leaves, served with meat stew, spicy sauce, and sides like gari, spaghetti.",
       image: "../images/food-img/img-12.jpg",
-      price: 22.99,
+      price: "22 / $25",
     },
     {
       name: "Fried Rice",
       description:
-        "A savory stir-fried rice dish with vegetables,  egg, soy sauce,  with chicken delivering a satisfying and aromatic experience.",
+        "A savory stir-fried rice dish with vegetables, egg, soy sauce, with chicken delivering a satisfying and aromatic experience.",
       image: "../images/food-img/dummy.jpg",
       price: 22,
     },
     {
       name: "Afrikico Combination Fried Rice",
       description:
-        "A savory stir-fried rice dish with vegetables,  egg, shrimp and chicken  soy sauce, and a choice of protein, delivering a satisfying and aromatic experience.",
+        "A savory stir-fried rice dish with vegetables, egg, shrimp and chicken soy sauce, and a choice of protein, delivering a satisfying and aromatic experience.",
       image: "../images/food-img/dummy.jpg",
-      price: 23,
-    },
-    {
-      name: "Fufu & Goat/Fish Light Soup",
-      description: "",
-      image: "../images/food-img/dummy.jpg",
-      price: 19.99,
+      price: 24,
     },
     {
       name: "Okro Stew",
       description:
-        "A traditional okra stew with a slimy texture, spiced and served with sides like Banku or Rice for an authentic taste. Includes Goat meat, Shrimp and Crocker Fish.",
+        "A traditional okra stew with a slimy texture, spiced and served with sides like Banku or Rice for an authentic taste. Includes goat meat, shrimp and crocker fish.",
       image: "../images/food-img/dummy.jpg",
       price: 22,
     },
     {
       name: "Peanut Soup",
       description:
-        "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice balls for a comforting meal. Includes Chicken.",
+        "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice balls for a comforting meal. Includes chicken.",
       image: "../images/food-img/img-1.jpg",
       price: 22,
     },
     {
-      name: "Egusi Soup",
+      name: "Spinach Stew / With Yam",
       description:
-          "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice balls for a comforting meal. Includes Chicken.",
-      image: "../images/food-img/dummy.jpg",
-      price: 19.99,
+        "A nutritious stew made with fresh spinach, cooked with tomatoes and spices, ideal as a side or with a protein. Served with white rice/yam/plantain. Includes fish/goat/egg.",
+      image: "../images/food-img/img-6.jpg",
+      price: "22 / $25",
     },
     {
-      name: "Spinach Stew",
+      name: "Egusi with Pounded Yam",
       description:
-        "A nutritious stew made with fresh spinach, cooked with tomatoes and spices, ideal as a side or with a protein.  Served with White Rice/ Yam/ Plantain / Eba. Includes  Fish/ Goat/ Egg",
-      image: "../images/food-img/img-6.jpg",
+        "A nutritious soup made with fresh spinach and melon seeds, cooked with tomatoes and spices, ideal as a side or with a protein. Served with pounded yam and includes fish or goat.",
+      image: "../images/food-img/dummy.jpg",
       price: 22,
     },
     {
-      name: "Grilled Tilapia",
+      name: "Grilled/Fried Fish (Red Snapper, Salmon, Tilapia). Must be pre-ordered 20-30 mins in advance.",
       description:
-        "A whole grilled or fried tilapia fish, seasoned with a spicy pepper sauce, offering a flavorful seafood experience. Served with Banku/ Acheke / Kenkey.",
-      image: "../images/food-img/img-2.jpg",
-      price: 30,
+        "Choice of grilled or crispy fried whole fish, perfectly seasoned and cooked to golden perfection. Served with your choice of Attiéké, kenkey, or crispy French fries, and accompanied by a side of spicy pepper sauce or savory tomato stew for a bold West African kick.",
+      image: "../images/food-img/dummy.jpg",
+      price: "22.00 - $30",
+    },
+    {
+      name: "Beans Stew with Fried Plantains / With Added Meat",
+      description:
+        "Black Eyed peas simmered in savory spices and tomato sauce paired with fried plantains.",
+      image: "../images/food-img/dummy.jpg",
+      price: "20 / $25",
+    },
+    {
+      name: "Curry Chicken / Goat",
+      description: "Chicken/goat simmered in curry sauce paired with rice.",
+      image: "../images/food-img/dummy.jpg",
+      price: "22 / $24",
+    },
+    {
+      name: "Oxtail Stew with Rice",
+      description: "Oxtails simmered in tomato sauce with bold savory flavors.",
+      image: "../images/food-img/dummy.jpg",
+      price: 24.99,
+    },
+    /*
+     {
+      name: "Fufu & Goat/Fish Light Soup",
+      description: "",
+      image: "../images/food-img/dummy.jpg",
+      price: 19.99,
     },
     {
       name: "Afrikico Platter",
@@ -90,13 +110,7 @@ const FoodMenuListThree = () => {
       image: "../images/food-img/dummy.jpg",
       price: 21,
     },
-    {
-      name: "Grilled/ Fried Fish (Crocker, Red Snapper, Mackerel, Salmon)",
-      description:
-        "Choice of grilled or crispy fried whole fish, perfectly seasoned and cooked to golden perfection. Served with your choice of Attiéké (cassava couscous), Gari foto, Kenkey, or crispy French fries, and accompanied by a side of spicy pepper sauce or savory tomato stew for a bold West African kick.",
-      image: "../images/food-img/dummy.jpg",
-      price: "22.00 - $30",
-    },
+
     {
       name: "Pig Feet Stew and Rice",
       description:
@@ -108,74 +122,59 @@ const FoodMenuListThree = () => {
       name: "KONTOMIRE (Spinach Stew) with any side dish",
       description: " ",
       image: "../images/food-img/img-17.jpg",
-      price:25,
+      price: 25,
     },
     {
       name: "Beans Stew (Red Red)",
-      description: "A rich bean Stew cooked with spices and served with fried plantain, offering a comfortcomfort comforting and filling",
+      description:
+        "A rich bean Stew cooked with spices and served with fried plantain, offering a comfortcomfort comforting and filling",
       image: "../images/food-img/dummy.jpg",
-      price:20,
+      price: 20,
     },
     {
       name: "Curry Chicken",
       description: " ",
       image: "../images/food-img/dummy.jpg",
-      price:22,
+      price: 22,
+    },
+
+    {
+      name: "Pig Feet Stew",
+      description:
+        "Slow-cooked delicacy made with tender pig feet simmered in a deeply seasoned, tomato sauce Infused with herbs, spices, and a hint of heat.  Served with white rice.",
+      image: "../images/food-img/dummy.jpg",
+      price: 18,
+    },
+
+    {
+      name: "Afrikico Oxtail Stew",
+      description:
+        "Oxtail simmered in a rich, savory tomato gravy with hearty vegetables and traditional island herbs. Served over fluffy white rice or rice and peas.",
+      image: "../images/food-img/dummy.jpg",
+      price: 28,
     },
     {
-      name: "Curry Goat",
-      description: " ",
+      name: "Jerk Chicken",
+      description:
+        "Tender chicken marinated in authentic jerk seasoning, grilled to perfection. Served with your choice of rice and peas or white rice, and accompanied by a side of sweet plantains or seasonal vegetables.",
       image: "../images/food-img/dummy.jpg",
-      price:23.99,
+      price: 15,
     },
     {
-      name: "Oxtail",
-      description: " ",
+      name: "Fried Yam and Chofi",
+      description:
+        "Fried turkey tail and fired yam served with Shito and fresh tomatoes pepper.",
       image: "../images/food-img/dummy.jpg",
-      price:28.99,
+      price: 20,
     },
-    // {
-    //   name: "Pig Feet Stew",
-    //   description:
-    //     "Slow-cooked delicacy made with tender pig feet simmered in a deeply seasoned, tomato sauce Infused with herbs, spices, and a hint of heat.  Served with white rice.",
-    //   image: "../images/food-img/dummy.jpg",
-    //   price: 18,
-    // },
-    // {
-    //   name: "Beans Stew with Fried  Plantain( Red Red)",
-    //   description:
-    //     "Black Eyed peas cooked in palm  oil served with fish ( Salmon)  and fried plantain.",
-    //   image: "../images/food-img/dummy.jpg",
-    //   price: 18,
-    // },
-    // {
-    //   name: "Afrikico Oxtail Stew",
-    //   description:
-    //     "Oxtail simmered in a rich, savory tomato gravy with hearty vegetables and traditional island herbs. Served over fluffy white rice or rice and peas.",
-    //   image: "../images/food-img/dummy.jpg",
-    //   price: 28,
-    // },
-    // {
-    //   name: "Jerk Chicken",
-    //   description:
-    //     "Tender chicken marinated in authentic jerk seasoning, grilled to perfection. Served with your choice of rice and peas or white rice, and accompanied by a side of sweet plantains or seasonal vegetables.",
-    //   image: "../images/food-img/dummy.jpg",
-    //   price: 15,
-    // },
-    // {
-    //   name: "Fried Yam and Chofi",
-    //   description:
-    //     "Fried turkey tail and fired yam served with Shito and fresh tomatoes pepper.",
-    //   image: "../images/food-img/dummy.jpg",
-    //   price: 20,
-    // },
-    // {
-    //   name: "Light (peppered)Soup",
-    //   description:
-    //     "A bold and zesty soup crafted with a rich blend of ripe tomatoes, hot peppers, and savory spices. Simmered to perfection with aromatic herbs and your choice of tender Goat meat or Fish. Served with Fufu or  Plain white rice",
-    //   image: "../images/food-img/dummy.jpg",
-    //   price: 25,
-    // },
+    {
+      name: "Light (peppered)Soup",
+      description:
+        "A bold and zesty soup crafted with a rich blend of ripe tomatoes, hot peppers, and savory spices. Simmered to perfection with aromatic herbs and your choice of tender Goat meat or Fish. Served with Fufu or  Plain white rice",
+      image: "../images/food-img/dummy.jpg",
+      price: 25,
+    },
+    */
   ];
 
   return (
