@@ -170,10 +170,10 @@ const Footer = () => {
                     <br />
                   </Link>
                   <Link
-                    href="tel:+1 (240)-469-4354"
+                    href="tel:+1 (240)-347-4180"
                     className="text-gray-400 hover:text-[#AD571E] transition-colors"
                   >
-                    +1 (240)-469-4354
+                    +1 (240)-347-4180
                   </Link>
                 </div>
               </div>

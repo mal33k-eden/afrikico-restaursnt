@@ -45,11 +45,11 @@ const Header = () => {
 
           <div className="flex items-center space-x-4">
             <Link
-              href="tel:240-469-4354"
+              href="tel:240-347-4180"
               className="hidden md:flex items-center space-x-2 text-gray-700 hover:text-orange-400 text-[18px] transition-colors duration-300"
             >
               <Phone className="h-5 w-5" />
-              <span className="font-medium">+1 (240)-469-4354</span>
+              <span className="font-medium">+1 (240)-347-4180</span>
             </Link>
             <button
               onClick={toggleMenu}
@@ -81,11 +81,11 @@ const Header = () => {
               ))}
 
               <Link
-                href="tel:240-469-4354"
+                href="tel:240-347-4180"
                 className="flex items-center space-x-2 text-gray-700 hover:text-orange-400 transition-colors duration-300 text-[18px] py-2 border-t border-gray-100 mt-4 pt-4"
               >
                 <Phone className="h-5 w-5" />
-                <span className="font-medium">+1 (240)-469-4354</span>
+                <span className="font-medium">+1 (240)-347-4180</span>
               </Link>
             </div>
           </div>
