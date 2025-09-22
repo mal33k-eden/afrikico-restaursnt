@@ -6,7 +6,7 @@ const FoodMenuListTwo = () => {
       description:
         "Sweet, ripe plantains sliced and fried to golden perfection — a comforting favorite with just the right touch of crisp and caramelized sweetness.",
       image: "../images/food-img/dummy.jpg",
-      price: 10,
+      price: 8,
     },
     {
       name: "Fried Yam",
@@ -68,7 +68,7 @@ const FoodMenuListTwo = () => {
       description:
         "A soft, dough-like staple made from cassava and plantains, pounded to a stretchy texture. Best enjoyed with thick, flavorful soups.",
       image: "../images/food-img/dummy.jpg",
-      price: 10,
+      price: 8,
     },
     {
       name: "Eba",

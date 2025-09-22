@@ -32,7 +32,7 @@ const FoodMenuListThree = () => {
     {
       name: "Okro Stew",
       description:
-        "A traditional okra stew with a slimy texture, spiced and served with sides like Banku or Rice for an authentic taste. Includes goat meat, shrimp and crocker fish.",
+        "A traditional okra stew with a slimy texture, spiced and served with sides like Banku or Rice for an authentic taste. Includes goat meat and crocker fish.",
       image: "../images/food-img/dummy.jpg",
       price: 22,
     },
@@ -41,7 +41,7 @@ const FoodMenuListThree = () => {
       description:
         "A rich and creamy West African peanut soup with a hint of spice, often served with fufu or rice balls for a comforting meal. Includes chicken.",
       image: "../images/food-img/img-1.jpg",
-      price: 22,
+      price: 23.99,
     },
     {
       name: "Spinach Stew / With Yam",
@@ -50,13 +50,13 @@ const FoodMenuListThree = () => {
       image: "../images/food-img/img-6.jpg",
       price: "22 / $25",
     },
-    {
-      name: "Egusi with Pounded Yam",
-      description:
-        "A nutritious soup made with fresh spinach and melon seeds, cooked with tomatoes and spices, ideal as a side or with a protein. Served with pounded yam and includes fish or goat.",
-      image: "../images/food-img/dummy.jpg",
-      price: 22,
-    },
+    // {
+    //   name: "Egusi with Pounded Yam",
+    //   description:
+    //     "A nutritious soup made with fresh spinach and melon seeds, cooked with tomatoes and spices, ideal as a side or with a protein. Served with pounded yam and includes fish or goat.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 22,
+    // },
     {
       name: "Grilled/Fried Fish (Red Snapper, Salmon, Tilapia). Must be pre-ordered 20-30 mins in advance.",
       description:
@@ -72,16 +72,40 @@ const FoodMenuListThree = () => {
       price: "20 / $25",
     },
     {
-      name: "Curry Chicken / Goat",
-      description: "Chicken/goat simmered in curry sauce paired with rice.",
+      name: "Curry Chicken",
+      description: "Curried chicken simmered in sauce and savory spices paired with white Rice.",
       image: "../images/food-img/dummy.jpg",
-      price: "22 / $24",
+      price: 22.99,
     },
     {
       name: "Oxtail Stew with Rice",
       description: "Oxtails simmered in tomato sauce with bold savory flavors.",
       image: "../images/food-img/dummy.jpg",
-      price: 24.99,
+      price: 28.99,
+    },
+      {
+      name: "Curry Goat",
+      description: "Curried Goat simmered in sauce and savory spices paired with white Rice.",
+      image: "../images/food-img/dummy.jpg",
+      price: 23.99,
+    },
+      {
+      name: "Palm Soup with Rice Balls",
+      description: "A rich, earthy soup made from palm nut extract, slow-cooked with meats and spices — served with soft, smooth rice balls to soak up every drop.",
+      image: "../images/food-img/dummy.jpg",
+      price: 25,
+    },
+      {
+      name: "Tuo Zaafi (TZ)- Made on Sundays Only",
+      description: "A staple from northern Ghana, TZ is served with a savory green soup and ayoyo (jute leaves), offering a perfect balance of texture and nutrition.",
+      image: "../images/food-img/dummy.jpg",
+      price: 25,
+    },
+      {
+      name: "Light Soup",
+      description: "A rich, earthy soup made from tomatoes, onions , slow-cooked with meats (Goat or Chicken) and spices — served with fufu.",
+      image: "../images/food-img/dummy.jpg",
+      price: 22,
     },
     /*
      {
