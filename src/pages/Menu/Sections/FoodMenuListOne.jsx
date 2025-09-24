@@ -9,11 +9,11 @@ const FoodMenuListOne = () => {
       price: 5,
     },
     {
-      name: "Beef Suya",
+      name: "Beef or Chicken Suya",
       description:
         "Skewered and grilled to perfection, this traditional West African street food features tender beef and chicken infused with bold suya spices — a smoky, spicy blend that captures the heart of the culture.",
       image: "../images/food-img/dummy.jpg",
-      price: 10.99,
+      price: "12.99 / $15.00"
     },
     {
       name: "Meat Pie",
@@ -48,21 +48,21 @@ const FoodMenuListOne = () => {
       name: "Fried Chicken Wings",
       description: "Plain crispy chicken wings rubbed in spices.",
       image: "../images/food-img/dummy.jpg",
-      price: 11.99,
-    },
-    {
-      name: "Kelewele (Spiced Fried Plantains)",
-      description:
-        "Golden fried plantain cubes tossed with ginger, chili, and fragrant West African spices. Sweet, spicy, and absolutely irresistible.",
-      image: "../images/food-img/dummy.jpg",
       price: 10,
     },
     {
-      name: "Fried Plantains",
-      description: "Golden fried plantain tossed with a little salt.",
+      name: "Kelewele (Fried Plantains) / With peanuts",
+      description:
+        "Golden fried plantain cubes tossed with ginger, chili, and fragrant West African spices. Sweet, spicy, and absolutely irresistible.",
       image: "../images/food-img/dummy.jpg",
-      price: 8,
+      price: "10.00 / 12.00",
     },
+    // {
+    //   name: "Fried Plantains",
+    //   description: "Golden fried plantain tossed with a little salt.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 8,
+    // },
     {
       name: "Domedo (Fried Seasoned Pork)",
       description:

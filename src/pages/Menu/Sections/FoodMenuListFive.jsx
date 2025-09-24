@@ -20,15 +20,15 @@ const FoodMenuListFive = () => {
       description:
         "A savory stir-fried rice dish with vegetables,  egg, soy sauce,  with chicken delivering a satisfying and aromatic experience.",
       image: "../images/food-img/dummy.jpg",
-      price: 20,
+      price: 19.99,
     },
-    {
-      name: "Banku/Kenkey with Fried/Grilled Fish(Tilapia)",
-      description:
-        "Baked or fried fish blended with spice and your choice of banku or kenkey.",
-      image: "../images/food-img/dummy.jpg",
-      price: 20.99,
-    },
+    // {
+    //   name: "Banku/Kenkey with Fried/Grilled Fish(Tilapia)",
+    //   description:
+    //     "Baked or fried fish blended with spice and your choice of banku or kenkey.",
+    //   image: "../images/food-img/dummy.jpg",
+    //   price: 20.99,
+    // },
     /*
     {
       name: "Wrap of the Day with French Fries)",
